@@ -51,3 +51,18 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 เพิ่มลิงก์ skill ใหม่หรืออัปเดตสถานะงานใน section นี้เมื่อ workflow เปลี่ยน:
 
 <!-- append new skills or status notes below -->
+
+### Batch progress (2026-07-23)
+
+| Batch | Keys | Status |
+|-------|------|--------|
+| 001–002 | 300 | done (merged) |
+| 003 | 149 | done |
+| 004 | 150 | done |
+| 005 | 150 | done |
+| 006–012 | ~927 | pending |
+
+- UI JSON: **749 / 1676** keys in `BetterGenshinImpact/User/I18n/th.json` (~45%)
+- `.resx`: 1 gap remaining (`resx-gaps-th.csv`)
+- OCR-sensitive: 60 hits (`ocr-related-th.csv`)
+- `th.json` wired in `BetterGenshinImpact.csproj` (`CopyToOutputDirectory`)

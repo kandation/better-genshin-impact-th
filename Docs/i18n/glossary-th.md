@@ -45,7 +45,14 @@
 | 秘境 | ดันเจี้ยน | Domain |
 | 委托 | เควสว่าจ้าง | Commissions |
 | 每日 | รายวัน | Daily |
-| 合成 | สังเคราะห์ | Crafting |
+| 合成 | สังเคราะห์ | Crafting — batch 003 |
+| 委托 | เควสว่าจ้าง | Commissions — batch 005 |
+| 元素战技 | สกิลธาตุ | Elemental Skill — batch 003 |
+| 元素爆发 | ท่าไม้ตาย | Elemental Burst — batch 003 |
+| 凯瑟琳 | Katherine | Adventurers' Guild — batch 003 |
+| 地脉花 | Ley Line Outcrop | Ley line farming — batch 004 |
+| 启示之花 | Blossom of Wealth | Ley line type — batch 004 |
+| 壶灵 | Teapot Spirit | Serenitea Pot NPC — batch 005 |
 | 尘歌壶 | กระถางแห่งควันและหยาดน้ำ | Serenitea Pot |
 | 七天神像 | รูปปั้นเจ็ดบูรพา | Statue of The Seven — ตรวจ client |
 | 浓缩树脂 | Condensed Resin | ใช้ชื่อ EN ใน UI |
@@ -104,3 +111,6 @@ String ใน `tools/i18n/reports/ocr-related-th.csv` ต้อง **ตรง�
 | วันที่ | ศัพท์ | การตัดสินใจ | PR/Issue |
 |--------|-------|-------------|----------|
 | 2026-07-23 | 七天神像, 钓鱼 UI, 上钩 | batch 001–002; OCR resx ยังรอตรวจ client | i18n-th |
+| 2026-07-23 | 元素战技, 元素爆发, 委托, 凯瑟琳 | batch 003–005; สกิลธาตุ/ท่าไม้ตาย/เควสว่าจ้าง/Katherine | i18n-th |
+| 2026-07-23 | 地脉花, 启示之花, 壶灵 | Ley Line Outcrop, Blossom of Wealth, Teapot Spirit (EN names) | i18n-th |
+| 2026-07-23 | 大英雄的经验, 布匹 | Hero's Wit, Fabric (material EN names) | i18n-th |
