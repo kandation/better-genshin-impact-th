@@ -43,9 +43,10 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 
 ## สถานะงานแปล (อ้างอิง)
 
-- UI JSON: **749 / 1676** ใน `BetterGenshinImpact/User/I18n/th.json` (~45%) — รายละเอียด batch ด้านล่าง
+- UI JSON: **1676 / 1676** keys scanned — **0 missing**, **0 empty** (2026-07-23 scan)
+- `th.json` on disk: **1697** keys (includes 21 stale whitespace variants kept for compatibility)
 - `.resx`: 1 gap (`resx-gaps-th.csv`); ดู `Docs/i18n/ocr-multilang-audit.md`
-- OCR-sensitive: ~60 hits (`ocr-related-th.csv`)
+- OCR-sensitive: 0 untranslated hits in latest scan (`ocr-related-th.csv` for manual review)
 
 ## Living doc
 
@@ -59,13 +60,16 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 
 | Batch | Keys | Status |
 |-------|------|--------|
-| 001–002 | 300 | done (merged) |
-| 003 | 149 | done |
-| 004 | 150 | done |
-| 005 | 150 | done |
-| 006–012 | ~927 | pending |
+| 001–005 | 749 | done (merged) |
+| 006 | 150 | done |
+| 007 | 151 | done |
+| 008 | 151 | done |
+| 009 | 151 | done |
+| 010 | 151 | done |
+| 011 | 151 | done |
+| 012 | 26 | done |
+| 013 | 23 | whitespace-variant fix |
 
-- UI JSON: **749 / 1676** keys in `BetterGenshinImpact/User/I18n/th.json` (~45%)
-- `.resx`: 1 gap remaining (`resx-gaps-th.csv`) — 11× `*.th.resx` added; ดู `ocr-multilang-audit.md`
-- OCR-sensitive: ~60 hits (`ocr-related-th.csv`); Thai PP-OCR model ยังไม่มี
+- Latest scan: **missing JSON keys 0**, **empty values 0**, **1676** unique UI strings covered
+- `.resx`: 1 gap remaining (`resx-gaps-th.csv`); Thai PP-OCR model ยังไม่มี
 - `th.json` wired in `BetterGenshinImpact.csproj` (`CopyToOutputDirectory`)

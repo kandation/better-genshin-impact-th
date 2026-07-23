@@ -115,3 +115,4 @@ python tools/i18n/merge_fragments.py --fragments-dir tools/i18n/batches/th/done 
 <!-- บันทึก edge cases, คำที่ตกลงใหม่, ปัญหา merge -->
 
 - **Proper names (2026-07-23):** regions / characters / fish → English display names only; no Thai transliteration in values.
+- **Whitespace keys (2026-07-23):** scan finds exact source strings (trailing spaces, `\n` suffix). batch-013 fix added 23 variant keys; 21 stale keys without variants remain harmless.

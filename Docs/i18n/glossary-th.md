@@ -119,3 +119,8 @@ String ใน `tools/i18n/reports/ocr-related-th.csv` ต้อง **ตรง�
 | 2026-07-23 | 元素战技, 元素爆发, 委托, 凯瑟琳 | batch 003–005; สกิลธาตุ/ท่าไม้ตาย/เควสว่าจ้าง/Katherine | i18n-th |
 | 2026-07-23 | 地脉花, 启示之花, 壶灵 | Ley Line Outcrop, Blossom of Wealth, Teapot Spirit (EN names) | i18n-th |
 | 2026-07-23 | Regions, characters, fish | Proper names = English only; no Thai transliteration | i18n-th |
+| 2026-07-23 | batch 006–012 | UI batch complete; 1676/1676 JSON keys; whitespace variants in batch-013 | i18n-th |
+| 2026-07-23 | 史莱姆凝液, 精致的宝箱, 洞天百宝 | Slime Condensate, Exquisite Chest, Realm Depot (EN item names) | batch 008–009 |
+| 2026-07-23 | 阿圆, 空荧酒馆, 千星奇域 | Tubby, Seelie Map, Simulanka (EN display names) | batch 009–011 |
+| 2026-07-23 | 蓝花/黄花/藏金之花 | Blossom of Revelation/Wealth (EXP/Mora ley lines) | batch 009/012 |
+| 2026-07-23 | 自动千音雅集, 自动幽境危战 | Repertoire of Harmonic Sounds, Spiral Abyss: Domain of Conflict | batch 009 |
