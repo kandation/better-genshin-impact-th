@@ -106,7 +106,7 @@ Context for translators and parallel agents:
 |-------|----------|
 | Game | Genshin Impact (原神) |
 | Terminology | Prefer **official Thai in-game terms** where they exist |
-| Map / location names | Transliteration (ทับศัพท์) is acceptable, e.g. 蒙德 → มอนด์สตัด |
+| Map / location names | **English proper names** — Fontaine, Liyue, Mondstadt (do not transliterate to Thai) |
 | Artifacts / characters | Cross-check [Genshin Impact Wiki (Thai)](https://genshin-impact.fandom.com/th/) or English wiki + official Thai client |
 | OCR / automation strings | Strings matched against game screenshots — verify Thai OCR support (PP-OCR v5 / EasyOCR) before translating; flag in `ocr-related-*.csv` |
 | UI JSON workflow | Add `"中文原文": "คำแปลไทย"` entries to `th.json`, then PR to [bettergi-i18n](https://github.com/babalae/bettergi-i18n) |

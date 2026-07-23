@@ -218,7 +218,7 @@ dotnet build BetterGenshinImpact.sln -c Debug
 
 - [ ] Set game language = ไทย / `th` in BetterGI settings
 - [ ] Auto fishing: F-key prompt, bite notification
-- [ ] Map teleport: region name switch (蒙德 → มอนด์สตัด)
+- [ ] Map teleport: region name switch (蒙德 → Mondstadt, 璃月 → Liyue, …)
 - [ ] Adventurers Guild daily: Katheryne prompt
 - [ ] Capture OCR overlay log for Thai script accuracy
 

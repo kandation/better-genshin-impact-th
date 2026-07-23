@@ -66,8 +66,8 @@ git checkout i18n-th
 
 ## กฎแปลภาษาไทย (สรุป)
 
-- ใช้ศัพท์ **official Genshin client ไทย** เมื่อมี
-- ชื่อแผนที่: ทับศัพท์ได้ (蒙德 → มอนด์สตัด)
+- ใช้ศัพท์ **official Genshin client ไทย** เมื่อมี (UI ทั่วไป)
+- **ชื่อเฉพาะ** (แผนที่, ตัวละคร, ปลา): ใช้ **ภาษาอังกฤษ** — Fontaine, Liyue, Mondstadt, Jean ฯลฯ **ห้าม** ทับศัพท์ไทย
 - อ้างอิง [Genshin Wiki TH](https://genshin-impact.fandom.com/th/) และ [glossary-th.md](./glossary-th.md)
 - String ที่ OCR ใช้: **ต้องตรงข้อความบนจอเกม** — อ่าน skill OCR ก่อน
 - อย่าแปล URL, regex, path, hotkey names
