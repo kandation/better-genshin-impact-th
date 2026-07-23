@@ -45,7 +45,7 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 
 - UI JSON: **1676 / 1676** keys scanned — **0 missing**, **0 empty** (2026-07-23 scan)
 - `th.json` on disk: **1697** keys (includes 21 stale whitespace variants kept for compatibility)
-- `.resx`: 1 gap (`resx-gaps-th.csv`); ดู `Docs/i18n/ocr-multilang-audit.md`
+- `.resx`: **0 gaps** (ครบ 11 ไฟล์)
 - OCR-sensitive: 0 untranslated hits in latest scan (`ocr-related-th.csv` for manual review)
 
 ## Living doc
@@ -71,5 +71,5 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 | 013 | 23 | whitespace-variant fix |
 
 - Latest scan: **missing JSON keys 0**, **empty values 0**, **1676** unique UI strings covered
-- `.resx`: 1 gap remaining (`resx-gaps-th.csv`); Thai PP-OCR model ยังไม่มี
+- `.resx`: **0 gaps**
 - `th.json` wired in `BetterGenshinImpact.csproj` (`CopyToOutputDirectory`)
