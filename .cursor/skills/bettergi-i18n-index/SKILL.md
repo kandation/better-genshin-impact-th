@@ -43,9 +43,9 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 
 ## สถานะงานแปล (อ้างอิง)
 
-- UI JSON: ~1676 keys ใน `missing-json-keys-th.csv` (ยังไม่มี `BetterGenshinImpact/User/I18n/th.json` ครบ)
-- `.resx`: ดู `tools/i18n/reports/resx-gaps-th.csv`
-- OCR-sensitive: ดู `tools/i18n/reports/ocr-related-th.csv`
+- UI JSON: **749 / 1676** ใน `BetterGenshinImpact/User/I18n/th.json` (~45%) — รายละเอียด batch ด้านล่าง
+- `.resx`: 1 gap (`resx-gaps-th.csv`); ดู `Docs/i18n/ocr-multilang-audit.md`
+- OCR-sensitive: ~60 hits (`ocr-related-th.csv`)
 
 ## Living doc
 
