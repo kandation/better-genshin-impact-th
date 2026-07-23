@@ -124,10 +124,10 @@
     <value>Nod-Krai</value>
   </data>
   <data name="枫丹" xml:space="preserve">
-    <value>ฟอนเตน</value>
+    <value>Fontaine</value>
   </data>
   <data name="璃月" xml:space="preserve">
-    <value>ลิเยว่</value>
+    <value>Liyue</value>
   </data>
   <data name="稻妻" xml:space="preserve">
     <value>Inazuma</value>
@@ -136,9 +136,9 @@
     <value>Natlan</value>
   </data>
   <data name="蒙德" xml:space="preserve">
-    <value>มอนด์สตัด</value>
+    <value>Mondstadt</value>
   </data>
   <data name="须弥" xml:space="preserve">
-    <value>สุเมรุ</value>
+    <value>Sumeru</value>
   </data>
 </root>

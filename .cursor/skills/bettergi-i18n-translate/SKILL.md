@@ -77,8 +77,8 @@ python tools/i18n/merge_fragments.py --fragments-dir tools/i18n/batches/th/done 
 |--------|--------|
 | เกม | Genshin Impact (原神) |
 | ศัพท์ในเกม | ใช้ **คำไทย official client** เมื่อมี — ดู [Genshin Wiki TH](https://genshin-impact.fandom.com/th/) |
-| ชื่อแผนที่ / region | **ทับศัพท์** ได้ เช่น 蒙德 → มอนด์สตัด, 璃月 → ลิเยว่ |
-| ตัวละคร / อาวุธ / artifact | cross-check Wiki TH + client ไทย |
+| ชื่อเฉพาะ (region / ตัวละคร / ปลา) | **ชื่อภาษาอังกฤษ** — Fontaine, Liyue, Jean, Medaka ฯลฯ — **ห้าม** ทับศัพท์ไทย (ฟอนเตน, ลิเยว่) หรือปล่อยจีนใน value |
+| ตัวละคร / อาวุธ / artifact | cross-check Wiki TH + client ไทย (เฉพาะศัพท์ทั่วไป ไม่ใช่ proper name) |
 | Glossary ทีม | อัปเดต [Docs/i18n/glossary-th.md](../../../Docs/i18n/glossary-th.md) เมื่อตัดสินใจศัพท์ใหม่ |
 
 ### โทนและรูปแบบ UI
@@ -113,3 +113,5 @@ python tools/i18n/merge_fragments.py --fragments-dir tools/i18n/batches/th/done 
 ## Living doc
 
 <!-- บันทึก edge cases, คำที่ตกลงใหม่, ปัญหา merge -->
+
+- **Proper names (2026-07-23):** regions / characters / fish → English display names only; no Thai transliteration in values.

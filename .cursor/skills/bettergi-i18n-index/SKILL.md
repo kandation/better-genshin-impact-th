@@ -53,6 +53,8 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 
 <!-- append new skills or status notes below -->
 
+- **Proper names:** regions, characters, fish species → **English only** in `th.json` / `*.th.resx` values (see glossary-th.md)
+
 ### Batch progress (2026-07-23)
 
 | Batch | Keys | Status |

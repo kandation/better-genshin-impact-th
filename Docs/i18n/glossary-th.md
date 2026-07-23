@@ -1,5 +1,7 @@
 # Glossary ภาษาไทย · Genshin / BetterGI
 
+> **กฎชื่อเฉพาะ (Proper names):** แผนที่ / region, ตัวละคร, ชนิดปลา — ใช้ **ชื่อภาษาอังกฤษ official** (Fontaine, Liyue, Jean, Medaka ฯลฯ) **ห้าม** แปลเป็นภาษาไทยหรือทับศัพท์ (เช่น ฟอนเตน, ลิเยว่, มอนด์สตัด) และ **ห้าม** ปล่อยชื่อจีนใน value (璃月, 蒙德)
+
 เอกสารนี้เป็น **template ที่เติมได้** — เมื่อตัดสินใจศัพท์ใหม่ ให้เพิ่มแถวและอ้างอิงใน PR
 
 แหล่งอ้างอิงหลัก:
@@ -18,19 +20,20 @@
 
 ---
 
-## Regions / แผนที่ (ทับศัพท์)
+## Regions / แผนที่ (English display names)
 
-| 中文 | ไทย (แนะนำ) | หมายเหตุ |
-|------|-------------|----------|
-| 蒙德 | มอนด์สตัด | Mondstadt |
-| 璃月 | ลิเยว่ | Liyue |
-| 稻妻 | _(เติมจาก Wiki TH)_ | Inazuma |
-| 须弥 | สุเมรุ | Sumeru |
-| 枫丹 | ฟอนเตน | Fontaine |
-| 纳塔 | _(เติมจาก Wiki TH)_ | Natlan |
-| 至冬 | _(เติมจาก Wiki TH)_ | Snezhnaya |
+| 中文 | English display name | หมายเหตุ |
+|------|----------------------|----------|
+| 蒙德 | Mondstadt | ห้ามทับศัพท์ไทย |
+| 璃月 | Liyue | |
+| 稻妻 | Inazuma | |
+| 须弥 | Sumeru | |
+| 枫丹 | Fontaine | |
+| 纳塔 | Natlan | |
+| 至冬 | Snezhnaya | |
+| 挪德卡莱 | Nod-Krai | |
 
-> **หมายเหตุ:** แถวที่มี _(เติมจาก Wiki TH)_ ยังไม่ยืนยัน — **ตรวจ Wiki/client ก่อน merge**
+> **หมายเหตุ:** value ใน `th.json` และ `*.th.resx` ต้องเป็นชื่อ EN ด้านบน — ไม่ใช่ภาษาไทย ไม่ใช่จีน
 
 ---
 
@@ -88,11 +91,13 @@
 
 ## ตัวละคร (ตัวอย่าง — เติมต่อ)
 
-| EN | 中文 | ไทย | หมายเหตุ |
-|----|------|-----|----------|
-| Nahida | 纳西妲 | _(เติมจาก Wiki TH)_ | ใช้ชื่อ official TH |
-| Neuvillette | 那维莱特 | _(เติมจาก Wiki TH)_ | |
-| Katherine | 凯瑟琳 | Katherine / แคทเธอรีน | ตรวจ client ไทย |
+| EN | 中文 | Display in Thai UI | หมายเหตุ |
+|----|------|--------------------|----------|
+| Nahida | 纳西妲 | Nahida | ใช้ชื่อ EN community |
+| Neuvillette | 那维莱特 | Neuvillette | |
+| Jean | 琴 | Jean | |
+| Kazuha | 万叶 | Kazuha | |
+| Katherine | 凯瑟琳 | Katherine | Adventurers' Guild |
 
 ---
 
@@ -113,4 +118,4 @@ String ใน `tools/i18n/reports/ocr-related-th.csv` ต้อง **ตรง�
 | 2026-07-23 | 七天神像, 钓鱼 UI, 上钩 | batch 001–002; OCR resx ยังรอตรวจ client | i18n-th |
 | 2026-07-23 | 元素战技, 元素爆发, 委托, 凯瑟琳 | batch 003–005; สกิลธาตุ/ท่าไม้ตาย/เควสว่าจ้าง/Katherine | i18n-th |
 | 2026-07-23 | 地脉花, 启示之花, 壶灵 | Ley Line Outcrop, Blossom of Wealth, Teapot Spirit (EN names) | i18n-th |
-| 2026-07-23 | 大英雄的经验, 布匹 | Hero's Wit, Fabric (material EN names) | i18n-th |
+| 2026-07-23 | Regions, characters, fish | Proper names = English only; no Thai transliteration | i18n-th |
