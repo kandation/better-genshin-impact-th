@@ -22,15 +22,12 @@ description: >-
 - Code: `BetterGenshinImpact/Core/Recognition/OCR/Paddle/PaddleOcrService.cs`
 - Model mapping: `PaddleOcrModelType.FromCultureInfo(CultureInfo)`
 
-### ภาษาไทย (`th`) — สถานะปัจจุบัน
+### ภาษาไทย (`th`) — สถานะปัจจุบัน (อัปเดต 2026-07-23)
 
-**ไม่มี mapping เฉพาะไทย** ใน `FromCultureInfo()`:
-
-- ไทย **ไม่อยู่** ใน `ocrV5Langs` (zh, en, ja, ko)
-- ไทย **ไม่อยู่** ใน `latinLangs` (de, fr, vi, …)
-- ผลลัพธ์: `return null` → อาจ fallback หรือไม่โหลด model ที่เหมาะ
-
-**V5 Latin** ครอบ latin script หลายภาษา แต่ **ไม่รวม `th`** — อย่าสมมติว่ารองรับไทยโดยอัตโนมัติ
+- `FromCultureInfo()` มี branch `th`/`thai` แล้ว แต่ยัง **`return null`** → fallback V5 (zh/en) — ดู `PaddleOcrService.cs` + [ocr-multilang-audit.md](../../../Docs/i18n/ocr-multilang-audit.md)
+- **ไม่มี PP-OCR Thai model** ใน repo — ต้อง bundle หรือใช้ EasyOCR
+- **11 ไฟล์ `*.th.resx`** สำหรับ task หลัก (AutoFishing, AutoDomain, …) — resx gaps เหลือ 1 (ชื่อภาษา 简体中文)
+- **~80+ hardcoded 中文** ใน `GameTask/` ยังไม่ผ่าน `IStringLocalizer` — ดู Pattern B ใน audit doc
 
 ### ก่อนแปล OCR-dependent strings
 
@@ -80,3 +77,7 @@ String ในรายการนี้มักมาจาก:
 ## Living doc
 
 <!-- ผลทดสอบ OCR ไทย, model ที่ใช้ได้, screenshot references -->
+
+- **Audit ฉบับเต็ม:** [Docs/i18n/ocr-multilang-audit.md](../../../Docs/i18n/ocr-multilang-audit.md)
+- **ตกปลา:** `钓鱼`→`ตกปลา`, `上钩`→`ปลาติดเบ็ด` ใน `AutoFishingTask.th.resx` — ยืนยันกับ client ไทย
+- **Blocker หลัก:** PP-OCR Thai model, hardcoded Chinese ใน QuickSereniteaPot / UseRedemptionCode / AutoStygianOnslaught

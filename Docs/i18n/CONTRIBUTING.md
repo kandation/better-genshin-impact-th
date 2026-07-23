@@ -41,6 +41,8 @@ git checkout i18n-th
 | OCR | `bettergi-i18n-ocr` |
 | Fork setup | `bettergi-i18n-repo` |
 
+**OCR / เกมหลายภาษา:** อ่าน [Docs/i18n/ocr-multilang-audit.md](./ocr-multilang-audit.md) — สรุปความเสี่ยงจีน-centric, `.th.resx`, และ hardcoded 中文
+
 ### 3. Scan งานที่ค้าง
 
 ```powershell

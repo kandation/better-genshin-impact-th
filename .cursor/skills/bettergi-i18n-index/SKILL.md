@@ -39,6 +39,7 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 | `tools/i18n/agent_prompt_th.md` | system prompt สำหรับ agent แปล |
 | `tools/i18n/batches/th/manifest.json` | สถานะ batch (ปัจจุบัน 1676 keys / 12 batches) |
 | `Docs/i18n/glossary-th.md` | glossary ศัพท์ Genshin ภาษาไทย |
+| `Docs/i18n/ocr-multilang-audit.md` | audit OCR / template จีน + สถานะ `.th.resx` |
 
 ## สถานะงานแปล (อ้างอิง)
 
@@ -63,6 +64,6 @@ Fork: **kandation/better-genshin-impact-th** · Branch หลัก: **`i18n-th`
 | 006–012 | ~927 | pending |
 
 - UI JSON: **749 / 1676** keys in `BetterGenshinImpact/User/I18n/th.json` (~45%)
-- `.resx`: 1 gap remaining (`resx-gaps-th.csv`)
-- OCR-sensitive: 60 hits (`ocr-related-th.csv`)
+- `.resx`: 1 gap remaining (`resx-gaps-th.csv`) — 11× `*.th.resx` added; ดู `ocr-multilang-audit.md`
+- OCR-sensitive: ~60 hits (`ocr-related-th.csv`); Thai PP-OCR model ยังไม่มี
 - `th.json` wired in `BetterGenshinImpact.csproj` (`CopyToOutputDirectory`)
