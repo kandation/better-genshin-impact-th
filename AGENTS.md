@@ -84,3 +84,18 @@
 ```
 dotnet build BetterGenshinImpact.sln -c Debug
 ```
+
+---
+
+## Thai i18n fork (i18n-th branch)
+
+本仓库为泰语 fork：**kandation/better-genshin-impact-th**，默认分支 **`i18n-th`**。
+
+进行本地化、翻译 batch、OCR 字符串或 i18n 工具开发时：
+
+1. 先读 **`.cursor/skills/bettergi-i18n-index/SKILL.md`**（技能索引）
+2. 贡献者指南：**`Docs/i18n/CONTRIBUTING.md`**
+3. 术语表：**`Docs/i18n/glossary-th.md`**
+4. 扫描工具：**`tools/i18n/`**（`scan_missing.py`, `split_batches.py`, `merge_fragments.py`, `agent_prompt_th.md`）
+
+Git：`origin` = fork，`upstream` = babalae/better-genshin-impact；小步 commit，可用 `git worktree` 并行翻译 batch。

@@ -1,0 +1,27 @@
+---
+description: BetterGI Thai i18n fork — point agents to i18n skill index and contributor docs
+globs: tools/i18n/**,Docs/i18n/**,BetterGenshinImpact/User/I18n/**,**/*.th.resx
+alwaysApply: false
+---
+
+# BetterGI Thai i18n
+
+Fork: **kandation/better-genshin-impact-th** · branch **`i18n-th`**
+
+## ก่อนทำงาน i18n
+
+1. อ่าน skill index: `.cursor/skills/bettergi-i18n-index/SKILL.md`
+2. มนุษย์: `Docs/i18n/CONTRIBUTING.md`
+3. ศัพท์ Genshin: `Docs/i18n/glossary-th.md`
+
+## กฎสั้นๆ
+
+- UI → `BetterGenshinImpact/User/I18n/th.json` (key = 中文)
+- Game tasks → `*.th.resx`
+- Scan: `python tools/i18n/scan_missing.py --target-locale th`
+- Commit เล็กบน `i18n-th` — อย่ารวมหลาย batch ใน commit เดียว
+- OCR strings → อ่าน `.cursor/skills/bettergi-i18n-ocr/SKILL.md` ก่อนแปล
+
+## MVVM / build
+
+โค้ด C# ทั่วไปยังตาม `AGENTS.md` ที่ root — build: `dotnet build BetterGenshinImpact.sln -c Debug`
