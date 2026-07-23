@@ -184,6 +184,14 @@ public class PaddleOcrService : IOcrService, IDisposable
             ];
             foreach (var name in names)
             {
+                // Thai (th): no dedicated PP-OCR rec model in BetterGI. V5Latin does not cover Thai script.
+                // OcrFactory V5Auto falls back to V5 when null — OK for English UI fragments, poor for Thai script.
+                // TODO: bundle PP-OCR Thai model or EasyOCR; see Docs/i18n/ocr-multilang-audit.md
+                if (name.Equals("th") || name.Equals("thai"))
+                {
+                    return null;
+                }
+
                 if (name.Equals("korean") || name.Equals("ko"))
                 {
                     return V5Korean;
