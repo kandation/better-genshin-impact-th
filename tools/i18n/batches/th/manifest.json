@@ -1,0 +1,68 @@
+{
+  "locale": "th",
+  "source_csv": "tools/i18n/reports/missing-json-keys-th.csv",
+  "total_keys": 1676,
+  "batch_size": 150,
+  "batches": [
+    {
+      "batch": 1,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-001-th.json"
+    },
+    {
+      "batch": 2,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-002-th.json"
+    },
+    {
+      "batch": 3,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-003-th.json"
+    },
+    {
+      "batch": 4,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-004-th.json"
+    },
+    {
+      "batch": 5,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-005-th.json"
+    },
+    {
+      "batch": 6,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-006-th.json"
+    },
+    {
+      "batch": 7,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-007-th.json"
+    },
+    {
+      "batch": 8,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-008-th.json"
+    },
+    {
+      "batch": 9,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-009-th.json"
+    },
+    {
+      "batch": 10,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-010-th.json"
+    },
+    {
+      "batch": 11,
+      "count": 150,
+      "json": "tools/i18n/batches/th/batch-011-th.json"
+    },
+    {
+      "batch": 12,
+      "count": 26,
+      "json": "tools/i18n/batches/th/batch-012-th.json"
+    }
+  ]
+}
