@@ -44,12 +44,29 @@ def main() -> int:
     paths: list[Path] = list(args.fragments or [])
     if args.fragments_dir:
         paths.extend(sorted(args.fragments_dir.glob(f"batch-*-{args.locale}.json")))
+        # Also accept Gemini / scan outputs that are not named batch-NNN
+        paths.extend(sorted(args.fragments_dir.glob(f"*-{args.locale}.json")))
+        paths.extend(sorted(args.fragments_dir.glob("missing-*-batch.json")))
+        # de-dupe while preserving order
+        seen: set[Path] = set()
+        uniq: list[Path] = []
+        for p in paths:
+            rp = p.resolve()
+            if rp in seen:
+                continue
+            seen.add(rp)
+            uniq.append(p)
+        paths = uniq
 
     if not paths:
         print("Provide --fragments and/or --fragments-dir")
         return 1
 
     merged: dict[str, str] = {}
+    output = args.output or Path(f"BetterGenshinImpact/User/I18n/{args.locale}.json")
+    if output.exists():
+        merged.update(load_json(output))
+
     for path in paths:
         fragment = load_json(path)
         for key, value in fragment.items():
@@ -61,7 +78,6 @@ def main() -> int:
     if args.drop_empty:
         merged = {k: v for k, v in merged.items() if v.strip()}
 
-    output = args.output or Path(f"BetterGenshinImpact/User/I18n/{args.locale}.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

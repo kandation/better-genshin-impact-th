@@ -1,1 +1,55 @@
 ﻿key
+**时间**: {data.Timestamp.ToString(
+/Resources/Fonts/#FgiRegular
+/Resources/Fonts/MiSans-Regular.ttf#MiSans
+/Resources/Fonts/deluge-led.ttf#Deluge LED
+Bark通知发送失败 (设备: {deviceKey}): {ex.Message}
+Bark通知发送失败: {ex.Message}
+"Cascadia Mono,Consolas"
+MeoW 调用失败，状态码: {response.StatusCode}
+Mirror源更新检查失败
+PDH GPU 计数器实例在读取期间持续变化，无法取得稳定快照
+PDH GPU 计数器实例过多：{itemCount}
+PDH GPU 计数器缓冲区过大：{bufferSize} 字节
+ServerChan调用失败，状态码: {response.StatusCode}
+[00:00:01 INF] Never gonna give you up
+[00:00:01 INF] Never gonna let you down
+icon_doc/all_bin/ 返回内容无法反序列化为 List<IconVo>
+item_doc/list_page_bin/{page.Md5} 返回内容无法反序列化为 List<ItemTypeVo>
+item_doc/list_page_bin_md5 返回内容无法反序列化
+item_doc/list_page_bin_md5 返回错误: {result.Message ?? 
+marker_doc/list_page_bin/{pageMd5} 返回内容为空
+marker_doc/list_page_bin/{pageMd5} 返回内容无法反序列化为 List<MarkerVo>
+marker_doc/list_page_bin_md5 返回内容无法反序列化
+marker_doc/list_page_bin_md5 返回错误: {result.Message ?? 
+oauth/token 返回内容无法反序列化
+{TemplateBinding ContentControl.ContentStringFormat}
+{TemplateBinding ContentControl.ContentTemplate}
+{name} 通知发送失败: {ex}
+{operation} 失败，PDH 状态码 0x{status:X8}
+{project.Name}任务已经不在执行周期（当前值${index}!=配置值${tcc.Index}），将跳过此任务！
+"→ 脚本执行结束: {Name}, 耗时: {Minutes}分{Seconds:0.000}秒"
+保存JS脚本配置组失败: {GroupName}
+写入缓存文件失败: {CacheKey}
+合成树脂执行异常：
+如果你已经在游戏内的其他界面，请自行退出当前界面（ESC），或是30秒后将程序将自动尝试到入主界面，使当前任务能够继续运行！
+存在{preExecutionProjects.Count}个需优先执行的任务！
+执行脚本时发生异常
+执行脚本时发生异常: {Msg}
+服务器返回错误: {(int)response.StatusCode} {response.StatusCode}
+"服务器返回错误: {(int)response.StatusCode} {response.StatusCode}, 响应内容: {responseContent}"
+查询米游社地图点位详情失败
+"游戏窗口分辨率不是 16:9 ！当前分辨率为 {Width}x{Height} , 非 16:9 分辨率的游戏无法正常使用{Msg}功能 !"
+获取 BetterGI 最新版本信息失败
+获取地图点位列表失败: {Retcode} {Message}
+获取最新版本信息失败：
+获取测试通知截图失败
+获取设备ID异常：
+读取缓存文件失败: {CacheKey}
+调用米游社地图接口获取点位列表失败
+调用米游社地图接口获取点位树失败
+通过Xxtui发送通知失败: 
+遮罩 CPU/内存指标初始化或读取失败，将自动隐藏不可用指标
+遮罩原神显卡占用率初始化或读取失败，将自动隐藏该指标
+锄地规划统计异常：{e.Message}
+首次运行自动初始化按键绑定异常：

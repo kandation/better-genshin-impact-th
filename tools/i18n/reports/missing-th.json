@@ -1,26 +1,217 @@
 {
-  "generated_at": "2026-07-23T13:40:39.225978+00:00",
+  "generated_at": "2026-07-23T16:54:18.077784+00:00",
   "repo_root": "D:\\games\\better_gh_th",
   "target_locale": "th",
   "summary": {
     "target_locale": "th",
     "translation_file": "BetterGenshinImpact/User/I18n/th.json",
     "translation_file_exists": true,
-    "translation_keys_total": 1697,
-    "xaml_cjk_hits": 1332,
-    "cs_ui_hits": 856,
-    "unique_ui_source_strings": 1676,
-    "missing_json_keys": 0,
+    "translation_keys_total": 2176,
+    "xaml_cjk_hits": 1436,
+    "cs_ui_hits": 1280,
+    "unique_ui_source_strings": 2110,
+    "missing_json_keys": 54,
     "empty_json_values": 0,
-    "stale_json_keys": 21,
+    "stale_json_keys": 120,
     "resx_base_keys": 46,
-    "resx_gaps": 1,
-    "ocr_related_untranslated": 0,
-    "hardcoded_not_in_json": 0
+    "resx_gaps": 0,
+    "ocr_related_untranslated": 1,
+    "hardcoded_not_in_json": 54
   },
-  "missing_json_keys": [],
+  "missing_json_keys": [
+    {
+      "key": "**时间**: {data.Timestamp.ToString("
+    },
+    {
+      "key": "/Resources/Fonts/#FgiRegular"
+    },
+    {
+      "key": "/Resources/Fonts/MiSans-Regular.ttf#MiSans"
+    },
+    {
+      "key": "/Resources/Fonts/deluge-led.ttf#Deluge LED"
+    },
+    {
+      "key": "Bark通知发送失败 (设备: {deviceKey}): {ex.Message}"
+    },
+    {
+      "key": "Bark通知发送失败: {ex.Message}"
+    },
+    {
+      "key": "Cascadia Mono,Consolas"
+    },
+    {
+      "key": "MeoW 调用失败，状态码: {response.StatusCode}"
+    },
+    {
+      "key": "Mirror源更新检查失败"
+    },
+    {
+      "key": "PDH GPU 计数器实例在读取期间持续变化，无法取得稳定快照"
+    },
+    {
+      "key": "PDH GPU 计数器实例过多：{itemCount}"
+    },
+    {
+      "key": "PDH GPU 计数器缓冲区过大：{bufferSize} 字节"
+    },
+    {
+      "key": "ServerChan调用失败，状态码: {response.StatusCode}"
+    },
+    {
+      "key": "[00:00:01 INF] Never gonna give you up"
+    },
+    {
+      "key": "[00:00:01 INF] Never gonna let you down"
+    },
+    {
+      "key": "icon_doc/all_bin/ 返回内容无法反序列化为 List<IconVo>"
+    },
+    {
+      "key": "item_doc/list_page_bin/{page.Md5} 返回内容无法反序列化为 List<ItemTypeVo>"
+    },
+    {
+      "key": "item_doc/list_page_bin_md5 返回内容无法反序列化"
+    },
+    {
+      "key": "item_doc/list_page_bin_md5 返回错误: {result.Message ?? "
+    },
+    {
+      "key": "marker_doc/list_page_bin/{pageMd5} 返回内容为空"
+    },
+    {
+      "key": "marker_doc/list_page_bin/{pageMd5} 返回内容无法反序列化为 List<MarkerVo>"
+    },
+    {
+      "key": "marker_doc/list_page_bin_md5 返回内容无法反序列化"
+    },
+    {
+      "key": "marker_doc/list_page_bin_md5 返回错误: {result.Message ?? "
+    },
+    {
+      "key": "oauth/token 返回内容无法反序列化"
+    },
+    {
+      "key": "{TemplateBinding ContentControl.ContentStringFormat}"
+    },
+    {
+      "key": "{TemplateBinding ContentControl.ContentTemplate}"
+    },
+    {
+      "key": "{name} 通知发送失败: {ex}"
+    },
+    {
+      "key": "{operation} 失败，PDH 状态码 0x{status:X8}"
+    },
+    {
+      "key": "{project.Name}任务已经不在执行周期（当前值${index}!=配置值${tcc.Index}），将跳过此任务！"
+    },
+    {
+      "key": "→ 脚本执行结束: {Name}, 耗时: {Minutes}分{Seconds:0.000}秒"
+    },
+    {
+      "key": "保存JS脚本配置组失败: {GroupName}"
+    },
+    {
+      "key": "写入缓存文件失败: {CacheKey}"
+    },
+    {
+      "key": "合成树脂执行异常："
+    },
+    {
+      "key": "如果你已经在游戏内的其他界面，请自行退出当前界面（ESC），或是30秒后将程序将自动尝试到入主界面，使当前任务能够继续运行！"
+    },
+    {
+      "key": "存在{preExecutionProjects.Count}个需优先执行的任务！"
+    },
+    {
+      "key": "执行脚本时发生异常"
+    },
+    {
+      "key": "执行脚本时发生异常: {Msg}"
+    },
+    {
+      "key": "服务器返回错误: {(int)response.StatusCode} {response.StatusCode}"
+    },
+    {
+      "key": "服务器返回错误: {(int)response.StatusCode} {response.StatusCode}, 响应内容: {responseContent}"
+    },
+    {
+      "key": "查询米游社地图点位详情失败"
+    },
+    {
+      "key": "游戏窗口分辨率不是 16:9 ！当前分辨率为 {Width}x{Height} , 非 16:9 分辨率的游戏无法正常使用{Msg}功能 !"
+    },
+    {
+      "key": "获取 BetterGI 最新版本信息失败"
+    },
+    {
+      "key": "获取地图点位列表失败: {Retcode} {Message}"
+    },
+    {
+      "key": "获取最新版本信息失败："
+    },
+    {
+      "key": "获取测试通知截图失败"
+    },
+    {
+      "key": "获取设备ID异常："
+    },
+    {
+      "key": "读取缓存文件失败: {CacheKey}"
+    },
+    {
+      "key": "调用米游社地图接口获取点位列表失败"
+    },
+    {
+      "key": "调用米游社地图接口获取点位树失败"
+    },
+    {
+      "key": "通过Xxtui发送通知失败: "
+    },
+    {
+      "key": "遮罩 CPU/内存指标初始化或读取失败，将自动隐藏不可用指标"
+    },
+    {
+      "key": "遮罩原神显卡占用率初始化或读取失败，将自动隐藏该指标"
+    },
+    {
+      "key": "锄地规划统计异常：{e.Message}"
+    },
+    {
+      "key": "首次运行自动初始化按键绑定异常："
+    }
+  ],
   "empty_json_values": [],
   "stale_json_keys": [
+    {
+      "key": "\n=== BetterGI 控制台输出 ===",
+      "value": "\n=== ผลลัพธ์คอนโซล BetterGI ==="
+    },
+    {
+      "key": " 后才进行快速传送",
+      "value": " ถึงจะทำการวาร์ปอย่างรวดเร็ว"
+    },
+    {
+      "key": "(琴二次拾取：首次拾取空,再次拾取)",
+      "value": "(เก็บของครั้งที่สอง Jean: ครั้งแรกว่างเปล่า, เก็บอีกครั้ง)"
+    },
+    {
+      "key": "40原石+5冬凌草",
+      "value": "40 Primogem + 5 หญ้าดงหลิง"
+    },
+    {
+      "key": "<h2 style='color: #333;'>通知详情</h2>",
+      "value": "<h2 style='color: #333;'>รายละเอียดการแจ้งเตือน</h2>"
+    },
+    {
+      "key": "<p><em>截图已作为附件添加到邮件中。</em></p>",
+      "value": "<p><em>ภาพหน้าจอถูกแนบมาในอีเมลแล้ว</em></p>"
+    },
+    {
+      "key": "BetterGI · 更好的原神 · 0.56.3-alpha.1 · Dev",
+      "value": "BetterGI · Genshin ที่ดียิ่งขึ้น · 0.56.3-alpha.1 · Dev"
+    },
     {
       "key": "BetterGI · 更好的原神 · {Global.Version}{(RuntimeHelper.IsDebug ?",
       "value": "BetterGI · Genshin Impact ที่ดีกว่า · {Global.Version}{(RuntimeHelper.IsDebug ?"
@@ -30,12 +221,100 @@
       "value": "บัญชี Bilibili (วิดีโอสอน):"
     },
     {
+      "key": "JavaScript - ",
+      "value": "JavaScript - "
+    },
+    {
+      "key": "Mirror酱是一个【付费】更新渠道！\n更新窗上有多个可用的【免费】国内更新渠道！\n（使用有问题可以直接反馈，或者过一段时间后重试，也可以点击左下角按钮进行手动更新）\n是否继续使用 Mirror酱 渠道更新？",
+      "value": "Mirror-chan เป็นช่องทางการอัปเดตแบบ [ชำระเงิน]!\nหน้าต่างอัปเดตมีช่องทางการอัปเดตแบบ [ฟรี] ให้เลือกใช้หลายช่องทาง!\n(หากพบปัญหาในการใช้งาน สามารถส่งข้อเสนอแนะได้โดยตรง หรือลองใหม่อีกครั้งหลังจากนี้ หรือคลิกปุ่มที่มุมซ้ายล่างเพื่ออัปเดตด้วยตนเอง)\nคุณต้องการใชัปเดตผ่านช่องทาง Mirror-chan ต่อไปหรือไม่?"
+    },
+    {
+      "key": "PaddleOcr预热失败，解决方案：【https://www.bettergi.com/faq.html】",
+      "value": "วอร์มอัพ PaddleOcr ล้มเหลว วิธีแก้ปัญหา: [https://www.bettergi.com/faq.html]"
+    },
+    {
+      "key": "PaddleOcr预热失败，解决方案：【https://www.bettergi.com/faq.html】   \r\n",
+      "value": "การวอร์มอัพ PaddleOcr ล้มเหลว วิธีแก้ไข: [https://www.bettergi.com/faq.html]   \r\n"
+    },
+    {
+      "key": "Xxtui推送结果:",
+      "value": "ผลการส่งการแจ้งเตือน Xxtui:"
+    },
+    {
+      "key": "[国际服]",
+      "value": "[เซิร์ฟเวอร์ Global]"
+    },
+    {
+      "key": "[手动触发快速传送触发快捷键]",
+      "value": "[ปุ่มลัดเรียกใช้การวาร์ปอย่างรวดเร็วด้วยตนเอง]"
+    },
+    {
+      "key": "\\ue5c8 邀约",
+      "value": "\\ue5c8 แฮงเอ้าท์"
+    },
+    {
+      "key": "\\uf075 剧情",
+      "value": "\\uf075 เนื้อเรื่อง"
+    },
+    {
+      "key": "\\uf256 拾取",
+      "value": "\\uf256 เก็บ"
+    },
+    {
+      "key": "\\uf3c5 传送",
+      "value": "\\uf3c5 วาร์ป"
+    },
+    {
+      "key": "\\uf578 钓鱼",
+      "value": "\\uf578 ตกปลา"
+    },
+    {
+      "key": "https://www.bettergi.com/dev/js/dispatcher.html#autoeat-自动吃食物",
+      "value": "https://www.bettergi.com/dev/js/dispatcher.html#autoeat-自动吃食物"
+    },
+    {
+      "key": "{e.Message}\n是否保存该圣遗物截图？（至log/autoArtifactSalvageException/）",
+      "value": "{e.Message}\nคุณต้องการบันทึกภาพหน้าจอ Artifact นี้หรือไม่? (ไปยัง log/autoArtifactSalvageException/)"
+    },
+    {
       "key": "{model.FunctionName}使用{hotKeyId.ToName()}键会与原神键位冲突：",
       "value": "ใช้ปุ่ม {hotKeyId.ToName()} สำหรับ {model.FunctionName} จะชนกับปุ่มใน Genshin Impact:"
     },
     {
+      "key": "{scriptProject.Manifest.Name}\r\n{scriptProject.Manifest.ShortDescription}\r\n\r\n将覆盖现有的JavaScript，是否继续？",
+      "value": "{scriptProject.Manifest.Name}\r\n{scriptProject.Manifest.ShortDescription}\r\n\r\nจะเขียนทับ JavaScript ที่มีอยู่ ต้องการดำเนินการต่อหรือไม่?"
+    },
+    {
       "key": "± 鼠标右击添加或删除任务",
       "value": "± คลิกขวาเมาส์เพื่อเพิ่มหรือลบงาน"
+    },
+    {
+      "key": "► 切换捕获模式至[{Mode}]，截图器自动重启...",
+      "value": "► เปลี่ยนโหมดการจับภาพเป็น [{Mode}] ตัวจับภาพหน้าจอจะรีสตาร์ทโดยอัตโนมัติ..."
+    },
+    {
+      "key": "【2-100】数字越小移动鼠标的速度越快，如果移动地图时产生卡顿，请提高这个数值",
+      "value": "[2-100] ยิ่งตัวเลขน้อย เมาส์จะยิ่งเคลื่อนที่เร็วขึ้น หากเกิดอาการกระตุกขณะเลื่อนแผนที่ โปรดเพิ่มค่านี้"
+    },
+    {
+      "key": "【200-600】小于这个距离会放大地图以提高移动的精度",
+      "value": "[200-600] หากน้อยกว่าระยะนี้จะซูมเข้าแผนที่เพื่อเพิ่มความแม่นยำในการเคลื่อนที่"
+    },
+    {
+      "key": "【>600】大于这个距离会缩小地图以加快传送",
+      "value": "[>600] หากมากกว่าระยะนี้จะซูมออกแผนที่เพื่อเร่งความเร็วในการวาร์ป"
+    },
+    {
+      "key": "下一次任务从此处执行",
+      "value": "ภารกิจถัดไปจะดำเนินการจากจุดนี้"
+    },
+    {
+      "key": "下载",
+      "value": "ดาวน์โหลด"
+    },
+    {
+      "key": "不要携带跟宠！在出现钓鱼F按钮的位置启动本任务 - ",
+      "value": "อย่าติดตั้งสัตว์เลี้ยงติดตาม! เริ่มต้นภารกิจนี้ตรงตำแหน่งที่มีปุ่มตกปลา F ปรากฏขึ้น - "
     },
     {
       "key": "个任务添加成功",
@@ -58,24 +337,220 @@
       "value": "แก้ไขการตั้งค่า JS แบบกำหนดเอง"
     },
     {
+      "key": "修改设置后重启生效，可能存在使游戏崩溃的BUG",
+      "value": "จะมีผลหลังจากรีสตาร์ทเมื่อแก้ไขการตั้งค่า อาจมีบั๊กที่ทำให้เกมเด้งดับได้"
+    },
+    {
+      "key": "允许通知",
+      "value": "อนุญาตการแจ้งเตือน"
+    },
+    {
+      "key": "全自动打牌 - ",
+      "value": "เล่นการ์ดอัตโนมัติ - "
+    },
+    {
+      "key": "切换{Name}状态为[{Enabled}]",
+      "value": "สลับสถานะของ {Name} เป็น [{Enabled}]"
+    },
+    {
+      "key": "功能",
+      "value": "ฟังก์ชัน"
+    },
+    {
+      "key": "勾勾",
+      "value": "Wolfhook"
+    },
+    {
+      "key": "可以实现自动采集、自动挖矿、自动锄地等功能。请在调度器中使用！ ",
+      "value": "สามารถรวบรวมอัตโนมัติ ขุดแร่อัตโนมัติ ล่ามอนสเตอร์อัตโนมัติ และฟังก์ชันอื่น ๆ ได้ โปรดใช้งานในตัวจัดตารางเวลา! "
+    },
+    {
+      "key": "可以自动演奏单个，也可以全自动完成整个专辑 - ",
+      "value": "สามารถเล่นอัตโนมัติแบบเพลงเดียว หรือเล่นทั้งอัลบั้มแบบอัตโนมัติได้ - "
+    },
+    {
+      "key": "可以通过 Javascript 调用 BetterGI 在原神中的各项能力。请在调度器中使用！ ",
+      "value": "สามารถเรียกใช้ฟังก์ชันต่าง ๆ ของ BetterGI ใน Genshin Impact ผ่าน Javascript ได้ โปรดใช้งานในตัวจัดตารางเวลา! "
+    },
+    {
+      "key": "可以通过快捷键保存截图，文件保存在",
+      "value": "สามารถบันทึกภาพหน้าจอผ่านคีย์ลัดได้ ไฟล์จะถูกบันทึกไว้ที่"
+    },
+    {
       "key": "史莱姆凝液",
       "value": "Slime Condensate"
+    },
+    {
+      "key": "周日或限时三种奖励,从上往下(1/2/3)序号:",
+      "value": "รางวัล 3 ประเภทในวันอาทิตย์หรือแบบจำกัดเวลา ลำดับจากบนลงล่าง (1/2/3):"
+    },
+    {
+      "key": "圣遗物",
+      "value": "อาร์ติแฟกต์"
+    },
+    {
+      "key": "在左侧栏目右键可以新增/修改配置组，拖拽进行配置组排序。配置组内可以添加并配置软件内的 Javascript 脚本、键鼠脚本等，并能够控制执行次数、顺序等， ",
+      "value": "คลิกขวาที่คอลัมน์ด้านซ้ายเพื่อเพิ่ม/แก้ไขกลุ่มการตั้งค่า และลากเพื่อจัดลำดับกลุ่มการตั้งค่า ในกลุ่มการตั้งค่าสามารถเพิ่มและกำหนดค่าสคริปต์ Javascript หรือสคริปต์คีย์บอร์ดและเมาส์ภายในซอฟต์แวร์ รวมถึงควบคุมจำนวนครั้งและลำดับการทำงานได้ "
+    },
+    {
+      "key": "在线脚本仓库下载并导入成功！",
+      "value": "ดาวน์โหลดและนำเข้าจากคลังสคริปต์ออนไลน์สำเร็จ!"
+    },
+    {
+      "key": "在遮罩内显示日志窗口，",
+      "value": "แสดงหน้าต่างบันทึกในหน้าต่างโอเวอร์เลย์,"
+    },
+    {
+      "key": "在锄地脚本中，实际战斗成功次数大于等于预期战斗次数，才能成功，否则抛出异常。可以解决锄地时，应打开地图失败、切换队伍、或卡在按Z的切换界面、卡月卡等，可能导致的无限卡死。 但需要确定自己的队伍练度，有无可能连续超过配置失败次数个脚本都复活超次，导致判断失败，从而触发无限重启。",
+      "value": "ในสคริปต์ฟาร์มมอนสเตอร์ จำนวนครั้งที่ต่อสู้สำเร็จจริงต้องมากกว่าหรือเท่ากับจำนวนครั้งที่คาดหวังจึงจะถือว่าสำเร็จ มิฉะนั้นจะส่งข้อผิดพลาด (Exception) ออกมา สามารถแก้ไขปัญหาค้างอนันต์ที่อาจเกิดขึ้นระหว่างฟาร์มมอนสเตอร์ได้ เช่น เปิดแผนที่ล้มเหลว, สลับทีม, ค้างที่หน้าต่างสลับไอเทมที่กด Z, ค้างหน้าพรของดวงจันทร์ ฯลฯ แต่จำเป็นต้องตรวจสอบระดับความแข็งแกร่งของทีมตัวเองด้วยว่ามีโอกาสที่สคริปต์จะล้มเหลวติดต่อกันเกินจำนวนครั้งที่กำหนด และชุบชีวิตเกินจำนวนจนทำให้การตัดสินผิดพลาด ส่งผลให้เกิดการรีสตาร์ทแบบไม่สิ้นสุดหรือไม่"
+    },
+    {
+      "key": "地图放大的距离",
+      "value": "ระยะการขยายแผนที่"
+    },
+    {
+      "key": "地图缩小的距离",
+      "value": "ระยะการย่อแผนที่"
+    },
+    {
+      "key": "基于钟离的自动循环刷本 - ",
+      "value": "การฟาร์มดันเจี้ยนวนลูปอัตโนมัติโดยใช้ Zhongli - "
+    },
+    {
+      "key": "填写队伍名称",
+      "value": "กรอกชื่อทีม"
+    },
+    {
+      "key": "填写队伍名称 ",
+      "value": "กรอกชื่อทีม "
+    },
+    {
+      "key": "建议在游戏内使用快捷键进行录制，录制完成后在调度器中使用。",
+      "value": "แนะนำให้ใช้คีย์ลัดในเกมเพื่อบันทึก เมื่อบันทึกเสร็จแล้วจึงนำไปใช้ในตัวจัดตารางเวลา (Scheduler)"
+    },
+    {
+      "key": "开启后可以拖拽调整日志与状态栏位置，并调整大小",
+      "value": "เมื่อเปิดใช้งาน จะสามารถลากเพื่อปรับตำแหน่งและขนาดของบันทึกและแถบสถานะได้"
     },
     {
       "key": "开源地址:",
       "value": "ที่อยู่โอเพนซอร์ส:"
     },
     {
+      "key": "彩橘",
+      "value": "Sprayfeather Melon"
+    },
+    {
+      "key": "恢复默认图片",
+      "value": "รีเซ็ตเป็นรูปภาพเริ่มต้น"
+    },
+    {
+      "key": "您已选择「Github」作为更新源。\n请确认：您当前网络可正常访问 Github 文件服务？\n若不确定能否访问，建议切换至其他更新渠道。\n是否继续使用 Github 渠道更新？",
+      "value": "คุณได้เลือก \"Github\" เป็นแหล่งอัปเดต\nโปรดยืนยัน: เครือข่ายของคุณสามารถเข้าถึงบริการไฟล์ของ Github ได้ตามปกติหรือไม่?\nหากไม่แน่ใจ แนะนำให้เปลี่ยนไปใช้ช่องทางอัปเดตอื่น\nคุณต้องการใช้ช่องทาง Github ในการอัปเดตต่อหรือไม่?"
+    },
+    {
+      "key": "截图器启动后才能使用各项功能，",
+      "value": "ต้องเปิดใช้งานเครื่องมือจับภาพหน้าจอก่อน จึงจะสามารถใช้ฟังก์ชันต่างๆ ได้"
+    },
+    {
+      "key": "手动烹饪时，自动在完美状态下结束烹饪（不用的时候请关闭）",
+      "value": "เมื่อปรุงอาหารด้วยตนเอง จะเสร็จสิ้นการปรุงอาหารในระดับสมบูรณ์แบบโดยอัตโนมัติ (โปรดปิดเมื่อไม่ได้ใช้งาน)"
+    },
+    {
+      "key": "指定匹配表达式逐一筛选分解，支持5星圣遗物 - ",
+      "value": "คัดกรองและย่อยสลายทีละชิ้นตามนิพจน์ที่กำหนด รองรับอาร์ติแฟกต์ 5 ดาว - "
+    },
+    {
+      "key": "按下 ",
+      "value": "กด "
+    },
+    {
+      "key": "操作",
+      "value": "การดำเนินการ"
+    },
+    {
       "key": "文档:",
       "value": "เอกสาร:"
+    },
+    {
+      "key": "新增组",
+      "value": "เพิ่มกลุ่มใหม่"
+    },
+    {
+      "key": "显示游戏FPS（实验功能）",
+      "value": "แสดง FPS ของเกม (ฟังก์ชันทดลอง)"
+    },
+    {
+      "key": "更换背景图片",
+      "value": "เปลี่ยนภาพพื้นหลัง"
+    },
+    {
+      "key": "来自哥伦比娅官方账号",
+      "value": "จากบัญชีทางการของ Columbina"
+    },
+    {
+      "key": "来自哥伦比娅小姐的礼物～",
+      "value": "ของขวัญจากคุณ Columbina~"
+    },
+    {
+      "key": "查看最新的国服原神的兑换码，一键自动兑换",
+      "value": "ดูรหัสแลกรับ Genshin Impact เซิร์ฟเวอร์จีนล่าสุด และแลกรับอัตโนมัติในคลิกเดียว"
+    },
+    {
+      "key": "正在下载脚本仓库...",
+      "value": "กำลังดาวน์โหลดคลังสคริปต์..."
+    },
+    {
+      "key": "正在解压并导入...",
+      "value": "กำลังคลายบีบอัดและนำเข้า..."
     },
     {
       "key": "每行一条记录。",
       "value": "หนึ่งบรรทัดต่อหนึ่งรายการ"
     },
     {
+      "key": "测试版本非常不稳定！\n测试版本非常不稳定！\n测试版本非常不稳定！\n\n是否继续检查更新？",
+      "value": "เวอร์ชันทดสอบไม่เสถียรอย่างยิ่ง!\nเวอร์ชันทดสอบไม่เสถียรอย่างยิ่ง!\nเวอร์ชันทดสอบไม่เสถียรอย่างยิ่ง!\n\nคุณต้องการตรวจสอบการอัปเดตต่อหรือไม่?"
+    },
+    {
+      "key": "添加JS脚本",
+      "value": "เพิ่มสคริปต์ JS"
+    },
+    {
+      "key": "添加Shell",
+      "value": "เพิ่ม Shell"
+    },
+    {
+      "key": "添加地图追踪任务",
+      "value": "เพิ่มภารกิจติดตามแผนที่"
+    },
+    {
+      "key": "添加键鼠脚本",
+      "value": "เพิ่มสคริปต์คีย์บอร์ดและเมาส์"
+    },
+    {
+      "key": "版权信息",
+      "value": "ข้อมูลลิขสิทธิ์"
+    },
+    {
+      "key": "琴二次拾取",
+      "value": "การเก็บของรอบสองของ Jean"
+    },
+    {
+      "key": "登记号： 2025SR0500752",
+      "value": "หมายเลขลงทะเบียน: 2025SR0500752"
+    },
+    {
       "key": "白名单配置，每行一条记录",
       "value": "การตั้งค่าบัญชีขาว หนึ่งบรรทัดต่อหนึ่งรายการ"
+    },
+    {
+      "key": "确定要删除{itemType} \\\"{itemName}\\\" 吗？\n\n此操作将永久删除该{itemType}及其所有内容，无法恢复！",
+      "value": "คุณแน่ใจหรือไม่ว่าจะลบ {itemType} \\\"{itemName}\\\"?\n\nการดำเนินการนี้จะลบ {itemType} นี้และเนื้อหาทั้งหมดอย่างถาวร ไม่สามารถกู้คืนได้!"
+    },
+    {
+      "key": "确定要删除脚本 \\\"{item.Manifest.Name}\\\" 吗？\n\n此操作将永久删除脚本文件夹及其所有内容，无法恢复！",
+      "value": "คุณแน่ใจหรือไม่ว่าจะลบสคริปต์ \\\"{item.Manifest.Name}\\\"?\n\nการดำเนินการนี้จะลบโฟลเดอร์สคริปต์และเนื้อหาทั้งหมดอย่างถาวร ไม่สามารถกู้คืนได้!"
     },
     {
       "key": "示例：",
@@ -86,50 +561,720 @@
       "value": "Exquisite Chest"
     },
     {
+      "key": "紫",
+      "value": "สีม่วง"
+    },
+    {
+      "key": "脚本仓库已经 {daysSinceUpdate} 天未更新\n\n温馨提示：\n脚本内容跟随仓库版本，旧版仓库会订阅到旧版脚本。\n更新仓库后需要重新订阅脚本，以更新脚本内容。\n\n是否立即更新？",
+      "value": "คลังสคริปต์ไม่ได้อัปเดตมาเป็นเวลา {daysSinceUpdate} วันแล้ว\n\nคำแนะนำ:\nเนื้อหาสคริปต์จะอ้างอิงตามเวอร์ชันคลัง คลังเวอร์ชันเก่าจะสมัครรับสคริปต์เวอร์ชันเก่า\nหลังจากอัปเดตคลังแล้ว คุณต้องสมัครรับสคริปต์ใหม่อีกครั้งเพื่ออัปเดตเนื้อหาสคริปต์\n\nคุณต้องการอัปเดตทันทีหรือไม่?"
+    },
+    {
+      "key": "自动传送并进入幽境危战 - ",
+      "value": "วาร์ปอัตโนมัติและเข้าสู่การต่อสู้เสี่ยงภัยในแดนลึกลับ - "
+    },
+    {
+      "key": "自动执行选择的战斗策略 - ",
+      "value": "ดำเนินการตามกลยุทธ์การต่อสู้ที่เลือกโดยอัตโนมัติ - "
+    },
+    {
+      "key": "英文逗号分割，为空为全部通知",
+      "value": "คั่นด้วยเครื่องหมายจุลภาคภาษาอังกฤษ หากว่างไว้จะแจ้งเตือนทั้งหมด"
+    },
+    {
+      "key": "装备「王树瑞佑」，通过循环重启游戏刷新并收集木材 - ",
+      "value": "สวมใส่ \"พรแห่งพฤกษาใหญ่\" รีเฟรชและเก็บรวบรวมไม้ผ่านการรีสตาร์ตเกมวนซ้ำ - "
+    },
+    {
+      "key": "证书号： 软著登字第15156950号",
+      "value": "เลขที่ใบรับรอง: 软著登字第15156950号"
+    },
+    {
+      "key": "请",
+      "value": "โปรด"
+    },
+    {
+      "key": "请 ",
+      "value": "กรุณา "
+    },
+    {
       "key": "请在此输入白名单配置，每行一条记录。",
       "value": "ใส่การตั้งค่าบัญชีขาวที่นี่ หนึ่งบรรทัดต่อหนึ่งรายการ"
+    },
+    {
+      "key": "请等待当前操作完成后再进行下载。",
+      "value": "โปรดรอให้การทำงานปัจจุบันเสร็จสิ้นก่อนทำการดาวน์โหลด"
+    },
+    {
+      "key": "请输入有效的下载地址。",
+      "value": "โปรดป้อน URL สำหรับดาวน์โหลดที่ถูกต้อง"
+    },
+    {
+      "key": "读取原神键位并设置键位绑定数据时发生异常：",
+      "value": "เกิดข้อผิดพลาดขณะอ่านปุ่มควบคุมของ Genshin Impact และตั้งค่าข้อมูลการผูกปุ่ม: "
     },
     {
       "key": "调查",
       "value": "สำรวจ"
     },
     {
+      "key": "进入专辑界面使用，自动演奏未完成乐曲 - ",
+      "value": "ใช้เมื่อเข้าสู่หน้าต่างอัลบั้ม เล่นบทเพลงที่ยังไม่เสร็จสิ้นโดยอัตโนมัติ - "
+    },
+    {
+      "key": "进入演奏界面使用，下落模式必须选择垂落模式 - ",
+      "value": "ใช้เมื่อเข้าสู่หน้าต่างการเล่นเพลง โหมดโน้ตตกต้องเลือกเป็นโหมดตกตั้งฉาก - "
+    },
+    {
+      "key": "通过Xxtui发送通知失败:",
+      "value": "ส่งการแจ้งเตือนผ่าน Xxtui ล้มเหลว:"
+    },
+    {
+      "key": "部分 Emoji 彩色渲染失败，已回退为系统字体：{firstException.Message}",
+      "value": "การเรนเดอร์สี Emoji บางส่วนล้มเหลว ย้อนกลับไปใช้ฟอนต์ระบบ: {firstException.Message}"
+    },
+    {
+      "key": "配置文件{operation}失败\n错误：{coreException.Message}\n堆栈：\n{coreStack}",
+      "value": "ไฟล์การตั้งค่า {operation} ล้มเหลว\nข้อผิดพลาด: {coreException.Message}\nสแต็ก:\n{coreStack}"
+    },
+    {
+      "key": "配置每个角色执行的宏，比如：胡桃A重跳，",
+      "value": "กำหนดค่ามาโครสำหรับแต่ละตัวละคร เช่น Hu Tao โจมตีปกติ ชาร์จแล้วกระโดด,"
+    },
+    {
       "key": "长按 F 等于连续按下 F",
       "value": "กด F ค้าง = กด F ต่อเนื่อง"
+    },
+    {
+      "key": "须要打开设置-启用保存截图功能，文件保存在 ",
+      "value": "ต้องเปิด การตั้งค่า - เปิดใช้งานฟังก์ชันบันทึกภาพหน้าจอ ไฟล์จะถูกบันทึกไว้ที่ "
+    },
+    {
+      "key": "鼠标移动的时间间隔（毫秒）",
+      "value": "ช่วงเวลาห่างของการเคลื่อนที่ของเมาส์ (มิลลิวินาที)"
     },
     {
       "key": "（实验功能）配置组 -",
       "value": "(ฟีเจอร์ทดลอง) กลุ่มการตั้งค่า -"
     },
     {
+      "key": "，后续可以手动设置",
+      "value": ", สามารถตั้งค่าด้วยตนเองได้ในภายหลัง"
+    },
+    {
       "key": "🔹 本软件开源且免费，喜欢的可以点🌟Star ->",
       "value": "🔹 ซอฟต์แวร์นี้โอเพนซอร์สและฟรี ชอบกด 🌟Star ->"
     }
   ],
-  "resx_gaps": [
+  "resx_gaps": [],
+  "hardcoded_not_in_json": [
     {
-      "resx_base": "BetterGenshinImpact/View/Converters/CultureInfoNameToKVPConverter.zh-Hans.resx",
-      "key": "简体中文",
-      "base_value": "简体中文",
-      "target_file": "BetterGenshinImpact/View/Converters/CultureInfoNameToKVPConverter.th.resx",
-      "target_value": "简体中文",
-      "reason": "untranslated"
+      "text": "/Resources/Fonts/MiSans-Regular.ttf#MiSans",
+      "file": "BetterGenshinImpact/App.xaml",
+      "line": 20,
+      "kind": "xaml",
+      "property": "inline-content",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "/Resources/Fonts/deluge-led.ttf#Deluge LED",
+      "file": "BetterGenshinImpact/App.xaml",
+      "line": 21,
+      "kind": "xaml",
+      "property": "inline-content",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "[00:00:01 INF] Never gonna give you up",
+      "file": "BetterGenshinImpact/View/MaskWindow.xaml",
+      "line": 284,
+      "kind": "xaml",
+      "property": "inline-content",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "[00:00:01 INF] Never gonna let you down",
+      "file": "BetterGenshinImpact/View/MaskWindow.xaml",
+      "line": 286,
+      "kind": "xaml",
+      "property": "inline-content",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "Cascadia Mono,Consolas",
+      "file": "BetterGenshinImpact/View/Controls/Markdown/Resources/MarkdownStyles.xaml",
+      "line": 31,
+      "kind": "xaml",
+      "property": "inline-content",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "{TemplateBinding ContentControl.ContentStringFormat}",
+      "file": "BetterGenshinImpact/View/Controls/Style/ListViewEx.xaml",
+      "line": 19,
+      "kind": "xaml",
+      "property": "ContentStringFormat",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "{TemplateBinding ContentControl.ContentTemplate}",
+      "file": "BetterGenshinImpact/View/Controls/Style/ListViewEx.xaml",
+      "line": 20,
+      "kind": "xaml",
+      "property": "ContentTemplate",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "/Resources/Fonts/#FgiRegular",
+      "file": "BetterGenshinImpact/View/Controls/WpfUi/FaFontIconStyle.xaml",
+      "line": 4,
+      "kind": "xaml",
+      "property": "inline-content",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "游戏窗口分辨率不是 16:9 ！当前分辨率为 {Width}x{Height} , 非 16:9 分辨率的游戏无法正常使用{Msg}功能 !",
+      "file": "BetterGenshinImpact/Helpers/AssertUtils.cs",
+      "line": 28,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "获取设备ID异常：",
+      "file": "BetterGenshinImpact/Helpers/DeviceIdHelper.cs",
+      "line": 28,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "首次运行自动初始化按键绑定异常：",
+      "file": "BetterGenshinImpact/Helpers/SecurityControlHelper.cs",
+      "line": 33,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "合成树脂执行异常：",
+      "file": "BetterGenshinImpact/Model/OneDragonTaskItem.cs",
+      "line": 87,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "调用米游社地图接口获取点位树失败",
+      "file": "BetterGenshinImpact/Service/MaskMapPointService.cs",
+      "line": 111,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "调用米游社地图接口获取点位列表失败",
+      "file": "BetterGenshinImpact/Service/MaskMapPointService.cs",
+      "line": 201,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "获取地图点位列表失败: {Retcode} {Message}",
+      "file": "BetterGenshinImpact/Service/MaskMapPointService.cs",
+      "line": 207,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "查询米游社地图点位详情失败",
+      "file": "BetterGenshinImpact/Service/MaskMapPointService.cs",
+      "line": 298,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "读取缓存文件失败: {CacheKey}",
+      "file": "BetterGenshinImpact/Service/MemoryFileCache.cs",
+      "line": 249,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "写入缓存文件失败: {CacheKey}",
+      "file": "BetterGenshinImpact/Service/MemoryFileCache.cs",
+      "line": 283,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "遮罩 CPU/内存指标初始化或读取失败，将自动隐藏不可用指标",
+      "file": "BetterGenshinImpact/Service/OverlayMetricsService.cs",
+      "line": 393,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "遮罩原神显卡占用率初始化或读取失败，将自动隐藏该指标",
+      "file": "BetterGenshinImpact/Service/OverlayMetricsService.cs",
+      "line": 404,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "{project.Name}任务已经不在执行周期（当前值${index}!=配置值${tcc.Index}），将跳过此任务！",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 74,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "锄地规划统计异常：{e.Message}",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 100,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "存在{preExecutionProjects.Count}个需优先执行的任务！",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 245,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "执行脚本时发生异常",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 365,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "执行脚本时发生异常: {Msg}",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 366,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "→ 脚本执行结束: {Name}, 耗时: {Minutes}分{Seconds:0.000}秒",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 377,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "保存JS脚本配置组失败: {GroupName}",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 580,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "如果你已经在游戏内的其他界面，请自行退出当前界面（ESC），或是30秒后将程序将自动尝试到入主界面，使当前任务能够继续运行！",
+      "file": "BetterGenshinImpact/Service/ScriptService.cs",
+      "line": 645,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "获取最新版本信息失败：",
+      "file": "BetterGenshinImpact/Service/UpdateService.cs",
+      "line": 93,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "获取 BetterGI 最新版本信息失败",
+      "file": "BetterGenshinImpact/Service/UpdateService.cs",
+      "line": 95,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "Mirror源更新检查失败",
+      "file": "BetterGenshinImpact/Service/UpdateService.cs",
+      "line": 233,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "PDH GPU 计数器缓冲区过大：{bufferSize} 字节",
+      "file": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs",
+      "line": 98,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "PDH GPU 计数器实例过多：{itemCount}",
+      "file": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs",
+      "line": 124,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "PDH GPU 计数器实例在读取期间持续变化，无法取得稳定快照",
+      "file": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs",
+      "line": 151,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "{operation} 失败，PDH 状态码 0x{status:X8}",
+      "file": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs",
+      "line": 163,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "获取测试通知截图失败",
+      "file": "BetterGenshinImpact/Service/Notification/NotificationService.cs",
+      "line": 410,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": true,
+      "notes": ""
+    },
+    {
+      "text": "Bark通知发送失败: {ex.Message}",
+      "file": "BetterGenshinImpact/Service/Notifier/BarkNotifier.cs",
+      "line": 255,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "服务器返回错误: {(int)response.StatusCode} {response.StatusCode}",
+      "file": "BetterGenshinImpact/Service/Notifier/BarkNotifier.cs",
+      "line": 281,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "服务器返回错误: {(int)response.StatusCode} {response.StatusCode}, 响应内容: {responseContent}",
+      "file": "BetterGenshinImpact/Service/Notifier/BarkNotifier.cs",
+      "line": 283,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "Bark通知发送失败 (设备: {deviceKey}): {ex.Message}",
+      "file": "BetterGenshinImpact/Service/Notifier/BarkNotifier.cs",
+      "line": 292,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "MeoW 调用失败，状态码: {response.StatusCode}",
+      "file": "BetterGenshinImpact/Service/Notifier/MeowNotifier.cs",
+      "line": 46,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "{name} 通知发送失败: {ex}",
+      "file": "BetterGenshinImpact/Service/Notifier/NotifierManager.cs",
+      "line": 48,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "ServerChan调用失败，状态码: {response.StatusCode}",
+      "file": "BetterGenshinImpact/Service/Notifier/ServerChanNotifier.cs",
+      "line": 58,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "**时间**: {data.Timestamp.ToString(",
+      "file": "BetterGenshinImpact/Service/Notifier/ServerChanNotifier.cs",
+      "line": 104,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "通过Xxtui发送通知失败: ",
+      "file": "BetterGenshinImpact/Service/Notifier/xxtuiNotifier.cs",
+      "line": 127,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "oauth/token 返回内容无法反序列化",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 120,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "item_doc/list_page_bin/{page.Md5} 返回内容无法反序列化为 List<ItemTypeVo>",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 149,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "marker_doc/list_page_bin/{pageMd5} 返回内容为空",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 224,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "marker_doc/list_page_bin/{pageMd5} 返回内容无法反序列化为 List<MarkerVo>",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 231,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "icon_doc/all_bin/ 返回内容无法反序列化为 List<IconVo>",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 248,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "item_doc/list_page_bin_md5 返回内容无法反序列化",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 266,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "item_doc/list_page_bin_md5 返回错误: {result.Message ?? ",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 271,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "marker_doc/list_page_bin_md5 返回内容无法反序列化",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 299,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
+    },
+    {
+      "text": "marker_doc/list_page_bin_md5 返回错误: {result.Message ?? ",
+      "file": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs",
+      "line": 304,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": false,
+      "notes": ""
     }
   ],
-  "hardcoded_not_in_json": [],
-  "ocr_related": [],
+  "ocr_related": [
+    {
+      "text": "获取测试通知截图失败",
+      "file": "BetterGenshinImpact/Service/Notification/NotificationService.cs",
+      "line": 410,
+      "kind": "cs",
+      "property": "string-literal",
+      "ocr_related": true,
+      "notes": ""
+    }
+  ],
   "samples": {
-    "missing_json_keys": [],
-    "resx_gaps": [
-      {
-        "resx_base": "BetterGenshinImpact/View/Converters/CultureInfoNameToKVPConverter.zh-Hans.resx",
-        "key": "简体中文",
-        "base_value": "简体中文",
-        "target_file": "BetterGenshinImpact/View/Converters/CultureInfoNameToKVPConverter.th.resx",
-        "target_value": "简体中文",
-        "reason": "untranslated"
-      }
+    "missing_json_keys": [
+      "**时间**: {data.Timestamp.ToString(",
+      "/Resources/Fonts/#FgiRegular",
+      "/Resources/Fonts/MiSans-Regular.ttf#MiSans",
+      "/Resources/Fonts/deluge-led.ttf#Deluge LED",
+      "Bark通知发送失败 (设备: {deviceKey}): {ex.Message}",
+      "Bark通知发送失败: {ex.Message}",
+      "Cascadia Mono,Consolas",
+      "MeoW 调用失败，状态码: {response.StatusCode}",
+      "Mirror源更新检查失败",
+      "PDH GPU 计数器实例在读取期间持续变化，无法取得稳定快照",
+      "PDH GPU 计数器实例过多：{itemCount}",
+      "PDH GPU 计数器缓冲区过大：{bufferSize} 字节",
+      "ServerChan调用失败，状态码: {response.StatusCode}",
+      "[00:00:01 INF] Never gonna give you up",
+      "[00:00:01 INF] Never gonna let you down"
     ],
-    "hardcoded_not_in_json": []
+    "resx_gaps": [],
+    "hardcoded_not_in_json": [
+      {
+        "text": "/Resources/Fonts/MiSans-Regular.ttf#MiSans",
+        "file": "BetterGenshinImpact/App.xaml",
+        "line": 20,
+        "kind": "xaml",
+        "property": "inline-content",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "/Resources/Fonts/deluge-led.ttf#Deluge LED",
+        "file": "BetterGenshinImpact/App.xaml",
+        "line": 21,
+        "kind": "xaml",
+        "property": "inline-content",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "[00:00:01 INF] Never gonna give you up",
+        "file": "BetterGenshinImpact/View/MaskWindow.xaml",
+        "line": 284,
+        "kind": "xaml",
+        "property": "inline-content",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "[00:00:01 INF] Never gonna let you down",
+        "file": "BetterGenshinImpact/View/MaskWindow.xaml",
+        "line": 286,
+        "kind": "xaml",
+        "property": "inline-content",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "Cascadia Mono,Consolas",
+        "file": "BetterGenshinImpact/View/Controls/Markdown/Resources/MarkdownStyles.xaml",
+        "line": 31,
+        "kind": "xaml",
+        "property": "inline-content",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "{TemplateBinding ContentControl.ContentStringFormat}",
+        "file": "BetterGenshinImpact/View/Controls/Style/ListViewEx.xaml",
+        "line": 19,
+        "kind": "xaml",
+        "property": "ContentStringFormat",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "{TemplateBinding ContentControl.ContentTemplate}",
+        "file": "BetterGenshinImpact/View/Controls/Style/ListViewEx.xaml",
+        "line": 20,
+        "kind": "xaml",
+        "property": "ContentTemplate",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "/Resources/Fonts/#FgiRegular",
+        "file": "BetterGenshinImpact/View/Controls/WpfUi/FaFontIconStyle.xaml",
+        "line": 4,
+        "kind": "xaml",
+        "property": "inline-content",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "游戏窗口分辨率不是 16:9 ！当前分辨率为 {Width}x{Height} , 非 16:9 分辨率的游戏无法正常使用{Msg}功能 !",
+        "file": "BetterGenshinImpact/Helpers/AssertUtils.cs",
+        "line": 28,
+        "kind": "cs",
+        "property": "string-literal",
+        "ocr_related": false,
+        "notes": ""
+      },
+      {
+        "text": "获取设备ID异常：",
+        "file": "BetterGenshinImpact/Helpers/DeviceIdHelper.cs",
+        "line": 28,
+        "kind": "cs",
+        "property": "string-literal",
+        "ocr_related": false,
+        "notes": ""
+      }
+    ]
   }
 }

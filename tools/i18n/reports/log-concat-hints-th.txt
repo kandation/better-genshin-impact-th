@@ -1,0 +1,55 @@
+GameTask/AutoBoss/AutoBossTask.cs: _logger.LogInformation("{Name}：开始第 {Round} 次讨伐 {Boss}", Name, rewardCount + 1, _taskParam.BossName);
+GameTask/AutoFight/AutoFightSeek.cs: // logger.LogInformation("检测敌人第 {retryCount} 次： {numLabels}", retryCount + 1, numLabels - 1);
+GameTask/AutoFight/Model/CombatScenes.cs: _logger.LogWarning("OCR识别第{Index}位角色，结果{Text}，视为未知角色", i + 1, rName.Text);
+GameTask/AutoFight/Model/CombatScenes.cs: _logger.LogWarning("[重新识别角色编号位置]使用新方法获取角色编号位置失败，原因：" + ex.Message);
+GameTask/AutoFight/Model/PartyAvatarSideIndexHelper.cs: logger.LogWarning("使用新方法获取角色编号位置失败，原因：" + ex.Message);
+GameTask/AutoFight/Model/PartyAvatarSideIndexHelper.cs: logger.LogInformation("当前出战角色未正确识别，通过出战标识推测角色编号为{Index}", i + 1);
+GameTask/AutoFishing/AutoFishingTask.cs: logger.LogInformation("定位到鱼塘：" + string.Join('、',
+GameTask/AutoFishing/Behaviours.cs: logger.LogInformation("定位到鱼塘：" + string.Join('、', fishpond.Fishes.GroupBy(f => f.FishType)
+GameTask/AutoGeniusInvokation/GeniusInvokationControl.cs: _logger.LogInformation("- 烧第{Count}张牌", i + 1);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogError("自动地脉花执行失败:" + e.Message);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogDebug("检测地脉花交互状态，重试次数: {Retries}/{MaxRetries}", retries + 1, maxRetries);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogInformation("开始导航到地脉花奖励，尝试 {Retry}/{Max}", retry + 1, maxRetry);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogDebug("树脂点击后奖励页面仍存在，第{Attempt}次后准备重试", attempt + 1);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogDebug("奖励页面未成功选择树脂，第{Attempt}次后准备重试", attempt + 1);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogDebug("通过冒险之证打开大地图失败，重新打开冒险之证，第{Retry}次", retry + 1);
+GameTask/AutoLeyLineOutcrop/AutoLeyLineOutcropTask.cs: _logger.LogDebug("通过图标识别点击冒险之证底部操作按钮，第{Attempt}次", attempt + 1);
+GameTask/AutoMusicGame/AutoAlbumTask.cs: Logger.LogInformation("乐曲{Num} - {Difficulty}级别：已完成【大音天籁】，切换下一首", i + 1, difficultyName);
+GameTask/AutoMusicGame/AutoAlbumTask.cs: Logger.LogInformation("第{Num}首{Difficulty}难度的乐曲：{Message}", i + 1, difficultyName, "没有完成【大音天籁】");
+GameTask/AutoMusicGame/AutoAlbumTask.cs: Logger.LogInformation("当前乐曲{Num}所有奖励已领取，切换下一首", i + 1);
+GameTask/AutoMusicGame/AutoAlbumTask.cs: Logger.LogInformation("当前乐曲{Num}存在未领取奖励，前往演奏", i + 1);
+GameTask/AutoMusicGame/AutoAlbumTask.cs: Logger.LogInformation("第{Num}首{Difficulty}难度乐曲演奏完成", i + 1, difficultyName);
+GameTask/AutoPathing/PathExecutor.cs: // Logger.LogWarning("判断是否跳过地图追踪:" + (CurWaypoint.Item1 < RecordWaypoint.Item1));
+GameTask/AutoPathing/PathExecutor.cs: //Logger.LogDebug("识别到路径："+position.X+","+position.Y);
+GameTask/AutoPathing/SkillBoostHelper.cs: // Logger.LogInformation("[赶路调试] ShouldApproach 连续赶路+特殊条件: dist={d}, stopDist={s}, nextDist={nd}, nextType={nt}, waypointType={wt}",
+GameTask/AutoSkip/AutoSkipTrigger.cs: _logger.LogInformation("提交物品：{Text}", "1. 选择物品" + i);
+GameTask/AutoSkip/AutoSkipTrigger.cs: _logger.LogInformation("提交物品：{Text}", "2. 放入" + i);
+GameTask/AutoSkip/AutoSkipTrigger.cs: //         _logger.LogInformation("提交物品：{Text}", "1. 选择物品" + i);
+GameTask/AutoSkip/AutoSkipTrigger.cs: //             _logger.LogInformation("提交物品：{Text}", "2. 放入" + i);
+GameTask/AutoSkip/AutoTrackTask.cs: Logger.LogInformation("自动追踪中断:" + e.Message);
+GameTask/AutoSkip/AutoTrackTask.cs: Logger.LogInformation("任务追踪：{Text}", "距离" + distance + "m");
+GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs: Logger.LogInformation(">>> 第 {Round} 轮战斗 <<<", round + 1);
+GameTask/AutoTrackPath/TpTask.cs: Logger.LogWarning(e.Message + "  重试");
+GameTask/AutoWood/AutoWoodTask.cs: Logger.LogInformation("第{Cnt}次伐木", i + 1);
+GameTask/Common/Job/BlessingOfTheWelkinMoonTask.cs: Logger.LogError("月卡判断异常：" + e.Message);
+GameTask/Common/Job/GoToAdventurersGuildTask.cs: Logger.LogError("前往冒险家协会领取奖励执行异常：" + e.Message);
+GameTask/Common/Job/GoToCraftingBenchTask.cs: Logger.LogError("前往合成台领取奖励执行异常：" + e.Message);
+GameTask/Common/Job/GoToSereniteaPotTask.cs: Logger.LogInformation("领取尘歌壶奖励:{text}", "洞天名称：" + dongTianName);
+GameTask/Common/Job/GoToSereniteaPotTask.cs: Logger.LogInformation("领取尘歌壶奖励:{text}", "洞天名称：" + dongTianName);
+GameTask/GameLoading/GameLoading.cs: TaskControl.Logger.LogWarning("B服判断异常: " + ex.Message);
+ViewModel/MainWindowViewModel.cs: _logger.LogError("首次运行自动初始化按键绑定异常：" + e.Source + "\r\n--" + Environment.NewLine + e.StackTrace + "\r\n---" + Environment.NewLine + e.Message);
+ViewModel/MainWindowViewModel.cs: _logger.LogError("PaddleOcr预热异常，解决方案：【https://www.bettergi.com/faq.html】\r\n" + e.Source + "\r\n--" +
+ViewModel/MainWindowViewModel.cs: _logger.LogError("PaddleOcr预热内部异常，解决方案：【https://www.bettergi.com/faq.html】\r\n" +
+ViewModel/Pages/ScriptControlViewModel.cs: _logger.LogWarning("无法定位到下一个要执行的项目：next为空（" + taskProgress.Name + ")");
+View/MaskWindow.xaml.cs: //         _logger.LogWarning("游戏注册表配置信息读取失败：" + e.Source + "\r\n--" + Environment.NewLine + e.StackTrace + "\r\n---" + Environment.NewLine + e.Message);
+Core/Script/Dependence/Notification.cs: _logger.LogWarning("JS 通知关闭，消息被拦截: " + message);
+Core/Script/Dependence/Notification.cs: _logger.LogWarning("通知频率超限，消息被拦截: " + message);
+Core/Script/Dependence/Notification.cs: _logger.LogWarning("通知内容违规，消息被拦截: " + message);
+Core/Script/Dependence/Notification.cs: _logger.LogInformation("通知发送成功：" + message);
+Core/Script/Dependence/Notification.cs: _logger.LogWarning("JS 通知关闭，消息被拦截: " + message);
+Core/Script/Dependence/Notification.cs: _logger.LogWarning("通知频率超限，消息被拦截: " + message);
+Core/Script/Dependence/Notification.cs: _logger.LogWarning("通知内容违规，消息被拦截: " + message);
+Core/Script/Dependence/Notification.cs: _logger.LogInformation("错误通知发送成功：" + message);
+Core/Script/Project/ScriptProject.cs: TaskControl.Logger.LogError(e, "中断脚本执行异常：" + e.Message);
+Helpers/DeviceIdHelper.cs: _logger.LogDebug("获取设备ID异常：" + e.Source + "\r\n--" + Environment.NewLine + e.StackTrace + "\r\n---" +
+Helpers/SecurityControlHelper.cs: TaskControl.Logger.LogError("首次运行自动初始化按键绑定异常：" + e.Source + "\r\n--" + Environment.NewLine + e.StackTrace + "\r\n---" + Environment.NewLine + e.Message);

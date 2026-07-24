@@ -22,8 +22,8 @@ from typing import Iterable
 
 # Mirrors AutoTranslateInterceptor.ShouldTranslatePropertyName (View/Behavior)
 XAML_ATTR_PATTERN = re.compile(
-    r'(?P<attr>(?:\w+:)?(?:Text|Content|Header|ToolTip|Title|Subtitle|'
-    r'Description|PlaceholderText|Label|Caption))\s*=\s*"(?P<value>[^"]*)"',
+    r'(?P<attr>(?:\w+:)?\w*(?:Text|Content|Header|ToolTip|Title|Subtitle|'
+    r'Description|PlaceholderText|Placeholder|Label|Caption)\w*)\s*=\s*"(?P<value>[^"]*)"',
     re.IGNORECASE,
 )
 
@@ -31,6 +31,9 @@ XAML_RUN_PATTERN = re.compile(
     r'<(?:\w+:)?Run\s+[^>]*Text="(?P<value>[^"]*)"',
     re.IGNORECASE,
 )
+
+# Inline element body: <TextBlock>中文</TextBlock> / <Hyperlink>…</Hyperlink>
+XAML_INLINE_CONTENT_PATTERN = re.compile(r">([^<>{}\n]+)<")
 
 CS_STRING_PATTERN = re.compile(
     r'(?P<prefix>@)?"(?P<value>(?:\\.|[^"\\])*)"',
@@ -95,6 +98,11 @@ NON_UI_TEXT_RE = re.compile(
 CS_UI_PATH_PREFIXES = (
     "BetterGenshinImpact/View/",
     "BetterGenshinImpact/ViewModel/",
+    "BetterGenshinImpact/Model/",
+    "BetterGenshinImpact/Service/",
+    "BetterGenshinImpact/Helpers/",
+    "BetterGenshinImpact/Helper/",
+    "BetterGenshinImpact/Core/Config/",
 )
 
 WITH_CULTURE_GET_RE = re.compile(
@@ -261,6 +269,43 @@ def scan_xaml(path: Path, repo_root: Path) -> list[StringHit]:
                     ocr_related=is_ocr_related(rel, value, "xaml"),
                 )
             )
+        for match in XAML_INLINE_CONTENT_PATTERN.finditer(line):
+            value = normalize_text(match.group(1)).strip()
+            if not value or value.startswith("<!--"):
+                continue
+            if not looks_like_translatable_ui(value):
+                continue
+            hits.append(
+                StringHit(
+                    text=value,
+                    file=rel,
+                    line=line_no,
+                    kind="xaml",
+                    property="inline-content",
+                    ocr_related=is_ocr_related(rel, value, "xaml"),
+                )
+            )
+        # TextBlock / Hyperlink element content (not attribute-bound)
+        stripped = line.strip()
+        if (
+            stripped
+            and "<" not in stripped
+            and ">" not in stripped
+            and "=" not in stripped
+            and not stripped.startswith("<!--")
+        ):
+            value = normalize_text(stripped)
+            if looks_like_translatable_ui(value):
+                hits.append(
+                    StringHit(
+                        text=value,
+                        file=rel,
+                        line=line_no,
+                        kind="xaml",
+                        property="Element.Content",
+                        ocr_related=is_ocr_related(rel, value, "xaml"),
+                    )
+                )
     return hits
 
 

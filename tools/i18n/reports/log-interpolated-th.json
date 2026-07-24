@@ -1,0 +1,373 @@
+{
+  "{command.Name}结束后，延时检查为{delayTime}毫秒": [
+    "GameTask/AutoFight/AutoFightTask.cs"
+  ],
+  "延时检查为{delayTime}毫秒": [
+    "GameTask/AutoFight/AutoFightTask.cs"
+  ],
+  "未识别到战斗结束yellow{b3.Item0},{b3.Item1},{b3.Item2}": [
+    "GameTask/AutoFight/AutoFightTask.cs"
+  ],
+  "未识别到战斗结束white{whiteTile.Item0},{whiteTile.Item1},{whiteTile.Item2}": [
+    "GameTask/AutoFight/AutoFightTask.cs"
+  ],
+  "战斗策略脚本中出现未知的方法：{method}": [
+    "GameTask/AutoFight/Script/Method.cs"
+  ],
+  "当前参数：{param.WholeProcessTimeoutSeconds}，{param.ThrowRodTimeOutTimeoutSeconds}，{param.FishingTimePolicy}, {param.SaveScreenshotOnKeyTick}, {param.GameCultureInfo}": [
+    "GameTask/AutoFishing/AutoFishingTask.cs"
+  ],
+  "当前获取焦点的窗口为: {name}，不是原神，停止执行": [
+    "GameTask/AutoFishing/AutoFishingTask.cs"
+  ],
+  "钓鱼任务将在{seconds}秒后超时": [
+    "GameTask/AutoFishing/AutoFishingTask.cs"
+  ],
+  "{seconds}秒超时已到，强制结束任务": [
+    "GameTask/AutoFishing/AutoFishingTask.cs"
+  ],
+  "{seconds}秒没有{Name}，退出钓鱼界面": [
+    "GameTask/AutoFishing/AutoFishingTask.cs"
+  ],
+  "本次将忽略{blackboard.selectedBait.GetDescription()}": [
+    "GameTask/AutoFishing/Behaviours.cs"
+  ],
+  "收杆成功": [
+    "GameTask/AutoFishing/Behaviours.cs"
+  ],
+  "{seconds}秒没有咬杆，本次收杆": [
+    "GameTask/AutoFishing/Behaviours.cs"
+  ],
+  "当前获取焦点的窗口为: {name}，不是原神，暂停": [
+    "GameTask/AutoGeniusInvokation/GeniusInvokationControl.cs",
+    "GameTask/Common/TaskControl.cs"
+  ],
+  "解析脚本错误，行号：{i + 1}，错误信息：{ex}": [
+    "GameTask/AutoGeniusInvokation/ScriptParser.cs"
+  ],
+  "角色【{characterCard.Name}】卡牌配置解析失败：{e.Message}": [
+    "GameTask/AutoGeniusInvokation/Config/CharacterCard.cs"
+  ],
+  "距离过远（{position.X},{position.Y}）->（{waypoint.X},{waypoint.Y}）={distance}，重试多次后仍然失败，放弃此路径点！": [
+    "GameTask/AutoPathing/PathExecutor.cs"
+  ],
+  "距离过远（{position.X},{position.Y}）->（{waypoint.X},{waypoint.Y}）={distance}，重试": [
+    "GameTask/AutoPathing/PathExecutor.cs"
+  ],
+  "重置到上次正确识别的坐标 ({prevNotTooFarPosition.X},{prevNotTooFarPosition.Y})": [
+    "GameTask/AutoPathing/PathExecutor.cs"
+  ],
+  "自动赶路：{avatar.Name}接近节点，关闭飞行状态": [
+    "GameTask/AutoPathing/SkillBoostHelper.cs"
+  ],
+  "自动赶路：{avatar.Name}飞行结束": [
+    "GameTask/AutoPathing/SkillBoostHelper.cs"
+  ],
+  "自动赶路：{avatar.Name}启动飞行": [
+    "GameTask/AutoPathing/SkillBoostHelper.cs"
+  ],
+  "未找到角色 {pickerName} 对应的动作": [
+    "GameTask/AutoPathing/Handler/PickUpCollectHandler.cs"
+  ],
+  "{Name}：打开活动菜单": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：在活动菜单中查找幽境危战": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：第 {attempt + 1} 次未找到幽境危战，尝试反向滑动": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：未找到幽境危战，尝试检测 StygianOnslaughtPage": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：点击前往挑战": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：未找到前往挑战按钮": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：点击传送": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：未找到传送按钮": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：交互秘境入口": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：选择困难难度并进入": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：未找到进入确认按钮": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：步行前往钥匙": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：选择Boss并开始挑战": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：战斗场地已准备就绪": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：挑战成功，等待返回大厅": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：挑战失败，等待返回Boss选择": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：交互地脉花": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：选择树脂": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：处理继续/退出选择": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：寻找地脉花": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：体力耗尽或轮次达标，结束战斗": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：执行战斗策略(JSON)": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：执行战斗策略": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：队伍初始化成功": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：成功交互地脉花": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：检测到至危挑战，点击切换到常规挑战": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：检测到常规挑战，点击打开难度菜单": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：未检测到挑战模式选项，点击顶部难度栏": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：点击困难模式": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：确认困难模式": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：选择BOSS编号{{Text}}": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：不更换战斗队伍": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：配置战斗队伍为：{fightTeamName}": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：预设队伍面板已打开": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：已选择队伍 {fightTeamName}": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：点击退出秘境": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "{Name}：退出秘境完成": [
+    "GameTask/AutoStygianOnslaught/AutoStygianOnslaughtTask.cs"
+  ],
+  "自动伐木检测到用户改键 {ElementIdentifierId.Z.ToName()} 改为 {key.ToName()}": [
+    "GameTask/AutoWood/AutoWoodTask.cs"
+  ],
+  "用户改键 {key.ToName()} 可能不受模拟支持，若使用正常则忽略": [
+    "GameTask/AutoWood/AutoWoodTask.cs"
+  ],
+  "解除{key}的按下状态.": [
+    "GameTask/Common/TaskControl.cs",
+    "Core/Simulator/Simulation.cs"
+  ],
+  "识别到橙色文字区域占比:{rate}": [
+    "GameTask/Common/Job/ChooseTalkOptionTask.cs"
+  ],
+  "设置时间到 {h} 点 {m} 分": [
+    "GameTask/Common/Job/SetTimeTask.cs"
+  ],
+  "锄地进度:[小怪:{ft.TotalNormalMobCount}/{cap.DailyMobCap}": [
+    "GameTask/FarmingPlan/FarmingStatsRecorder.cs"
+  ],
+  "锄地进度记录失败：{e.Message}": [
+    "GameTask/FarmingPlan/FarmingStatsRecorder.cs"
+  ],
+  "米游社旅行札记未有数据！": [
+    "GameTask/FarmingPlan/FarmingStatsRecorder.cs"
+  ],
+  "米游社数据更新失败，请检查cookie是否过期：{e.Message}": [
+    "GameTask/FarmingPlan/FarmingStatsRecorder.cs"
+  ],
+  "枚举窗口时出错: {ex.Message}": [
+    "GameTask/GameLoading/GameLoading.cs"
+  ],
+  "模型没有识别，应为：{itemName}|{itemStarNum}星，❌，正确率{total_acc / total_count:0.00}": [
+    "GameTask/GetGridIcons/GridIconsAccuracyTestTask.cs"
+  ],
+  "{predName}|{predStarNum}星，✔，正确率{total_acc / total_count:0.00}": [
+    "GameTask/GetGridIcons/GridIconsAccuracyTestTask.cs"
+  ],
+  "{predName}|{predStarNum}星，应为：{itemName}|{itemStarNum}星，❌，正确率{total_acc / total_count:0.00}": [
+    "GameTask/GetGridIcons/GridIconsAccuracyTestTask.cs"
+  ],
+  "米游社札记数据:{month.year}_{month.month}获取成功！": [
+    "GameTask/LogParse/TravelsDiaryDetailManager.cs"
+  ],
+  "token未登录，请重新登录获取，此次将不新最新数据！": [
+    "GameTask/LogParse/TravelsDiaryDetailManager.cs"
+  ],
+  "快速进出尘歌壶:识别到 {action}尘歌壶": [
+    "GameTask/QuickSereniteaPot/QuickSereniteaPotTask.cs"
+  ],
+  "快速进出尘歌壶:F{action}尘歌壶": [
+    "GameTask/QuickSereniteaPot/QuickSereniteaPotTask.cs"
+  ],
+  "删除文件失败：{file} - {ex.Message}": [
+    "GameTask/TaskProgress/TaskProgressManager.cs"
+  ],
+  "读取文件失败：{file} - {ex.Message}": [
+    "GameTask/TaskProgress/TaskProgressManager.cs"
+  ],
+  "主题类型已从 {originalThemeType} 修正为 {themeType}，因为当前系统不支持该主题效果": [
+    "ViewModel/MainWindowViewModel.cs"
+  ],
+  "当前处于前台的程序：{pName}": [
+    "ViewModel/Pages/HotKeyPageViewModel.cs"
+  ],
+  "参数指定的一条龙配置：{cmdOptions.OneDragonConfigName}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "启用一条龙配置：{SelectedConfig.Name}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "启用任务总数量: {enabledTaskCountall}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "启用一条龙任务的数量: {enabledoneTaskCount}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "启用配置组任务的数量: {enabledTaskCount}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "一条龙任务执行: {finishOneTaskcount++}/{enabledoneTaskCount}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "配置组任务执行: {finishTaskcount++}/{enabledTaskCount}": [
+    "ViewModel/Pages/OneDragonFlowViewModel.cs"
+  ],
+  "WebView2 初始化失败: {e.Message}": [
+    "View/HtmlMaskWindow.xaml.cs"
+  ],
+  "{project.Name}任务已到禁止执行时段，将跳过！": [
+    "Service/ScriptService.cs"
+  ],
+  "{project.Name}周期配置参数错误，配置将不生效，任务正常执行！": [
+    "Service/ScriptService.cs"
+  ],
+  "{project.Name}任务已经不在执行周期（当前值${index}!=配置值${tcc.Index}），将跳过此任务！": [
+    "Service/ScriptService.cs"
+  ],
+  "{project.Name}:{message},跳过此任务！": [
+    "Service/ScriptService.cs"
+  ],
+  "锄地规划统计异常：{e.Message}": [
+    "Service/ScriptService.cs"
+  ],
+  "{project.Name}:{skipMessage},跳过此任务！": [
+    "Service/ScriptService.cs"
+  ],
+  "存在{preExecutionProjects.Count}个需优先执行的任务！": [
+    "Service/ScriptService.cs"
+  ],
+  "浅克隆仓库: {repoUrl} 到 {repoPath}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "远程URL已更改: 从 {origin.Url} 到 {repoUrl}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "检测到远程更新: 本地 {currentCommitSha?[..7] ?? ": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "已标记repo.json中的更新节点并保存到: {updatedRepoJsonPath}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "仓库HEAD未指向任何提交。HEAD: {repo.Head?.CanonicalName ?? ": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "在路径 '{string.Join(": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "可用的条目: {availableEntries}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "使用配置的Git凭据进行身份验证": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "已清理旧依赖目录: {targetPackagesDir}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "清理依赖目录失败: {ex.Message}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "依赖未找到: {packagePath} (in {Path.GetFileName(currentFile)})": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "分析文件依赖出错: {currentFile}, {ex.Message}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "脚本manifest文件不存在: {scriptPath}/manifest.json": [
+    "Core/Script/ScriptRepoUpdater.cs",
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "脚本manifest文件不存在: {scriptManifestPath}": [
+    "Core/Script/ScriptRepoUpdater.cs",
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "脚本 {scriptPath} 没有需要保存的文件": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "未知的脚本路径映射: {scriptPath}": [
+    "Core/Script/ScriptRepoUpdater.cs",
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "需要备份的文件夹不存在: {dirPath}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "没有找到匹配的文件: {savedFile}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "脚本 {scriptPath} 没有需要恢复的文件": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "备份目录不存在: {backupScriptDir}": [
+    "Core/Script/ScriptRepoUpdater.cs"
+  ],
+  "[HTTP] 检查URL {url} 是否符合: {pattern}": [
+    "Core/Script/Dependence/Http.cs"
+  ],
+  "[HTTP] 发送HTTP请求: {method} {url} Body: {(body != null ? body : ": [
+    "Core/Script/Dependence/Http.cs"
+  ],
+  "此追踪脚本未正常走完！": [
+    "Core/Script/Group/ScriptGroupProject.cs"
+  ],
+  "实际战斗次数({pathingTask.SuccessFight})<预期战斗次数（{fightCount}），判定失败，此次不纳入成功锄地规划的统计上限！": [
+    "Core/Script/Group/ScriptGroupProject.cs"
+  ],
+  "路径追踪匹配控制文件：{filePath}": [
+    "Core/Script/Utils/JsonMerger.cs"
+  ],
+  "加载追踪控制文件或合并异常，请检查{pathingPath} 所在目录：{e.Message}": [
+    "Core/Script/Utils/JsonMerger.cs"
+  ]
+}

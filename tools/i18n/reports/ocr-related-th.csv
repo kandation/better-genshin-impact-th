@@ -1,1 +1,2 @@
 ﻿text,file,line,kind,property,ocr_related,notes
+获取测试通知截图失败,BetterGenshinImpact/Service/Notification/NotificationService.cs,410,cs,string-literal,True,

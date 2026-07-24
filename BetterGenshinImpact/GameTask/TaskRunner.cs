@@ -60,7 +60,7 @@ public class TaskRunner
         }
         try
         {
-            _logger.LogInformation("→ {Text}", _name + "任务启动！");
+            _logger.LogInformation("→ 任务启动！");
 
             // 初始化
             Init();
@@ -101,7 +101,7 @@ public class TaskRunner
         finally
         {
             End();
-            _logger.LogInformation("→ {Text}", _name + "任务结束");
+            _logger.LogInformation("→ 任务结束");
 
             CancellationContext.Instance.Clear();
             RunnerContext.Instance.Clear();

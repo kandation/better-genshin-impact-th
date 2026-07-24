@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-07-23T17:00:25.541574+00:00",
+  "th_keys_total": 2215,
+  "th_empty": 0,
+  "unique_source_cjk": 2099,
+  "missing_ui": 0,
+  "missing_non_ui": 16,
+  "already_translated": 2083,
+  "empty_keys": [],
+  "missing_ui_keys": [],
+  "missing_non_ui_keys": [
+    {
+      "key": "**时间**: {data.Timestamp.ToString(",
+      "category": "incomplete",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Notifier/ServerChanNotifier.cs:104:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "PDH GPU 计数器实例在读取期间持续变化，无法取得稳定快照",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs:151:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "PDH GPU 计数器实例过多：{itemCount}",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs:124:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "PDH GPU 计数器缓冲区过大：{bufferSize} 字节",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs:98:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "icon_doc/all_bin/ 返回内容无法反序列化为 List<IconVo>",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:248:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "item_doc/list_page_bin/{page.Md5} 返回内容无法反序列化为 List<ItemTypeVo>",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:149:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "item_doc/list_page_bin_md5 返回内容无法反序列化",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:266:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "item_doc/list_page_bin_md5 返回错误: {result.Message ?? ",
+      "category": "incomplete",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:271:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "marker_doc/list_page_bin/{pageMd5} 返回内容为空",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:224:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "marker_doc/list_page_bin/{pageMd5} 返回内容无法反序列化为 List<MarkerVo>",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:231:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "marker_doc/list_page_bin_md5 返回内容无法反序列化",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:299:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "marker_doc/list_page_bin_md5 返回错误: {result.Message ?? ",
+      "category": "incomplete",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:304:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "oauth/token 返回内容无法反序列化",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Tavern/KongyingTavernApiService.cs:120:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "{operation} 失败，PDH 状态码 0x{status:X8}",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Model/OverlayMetric/PdhGpuEngineCounterSource.cs:163:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "服务器返回错误: {(int)response.StatusCode} {response.StatusCode}",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Notifier/BarkNotifier.cs:281:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    },
+    {
+      "key": "服务器返回错误: {(int)response.StatusCode} {response.StatusCode}, 响应内容: {responseContent}",
+      "category": "noise",
+      "kind": "cs",
+      "property": "string-literal",
+      "sources": "BetterGenshinImpact/Service/Notifier/BarkNotifier.cs:283:cs",
+      "hit_count": 1,
+      "in_th": false,
+      "th_value": ""
+    }
+  ],
+  "by_kind": {
+    "cs": 934,
+    "xaml-content": 79,
+    "xaml-attr": 1032,
+    "culture": 29,
+    "themed": 25
+  },
+  "by_category": {
+    "ui": 2001,
+    "incomplete": 4,
+    "log": 81,
+    "noise": 13
+  }
+}

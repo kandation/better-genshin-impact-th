@@ -70,6 +70,18 @@ public sealed class TranslatingSerilogLoggerProvider : ILoggerProvider
                 ? template
                 : _translationService.Translate(template, TranslationSourceInfo.From(MissingTextSource.Log));
 
+            // Also translate string args that contain CJK (e.g. "{Name}" = "千音雅集", "{Text}" = "任务启动！").
+            if (!RuntimeHelper.IsDebuggerAttached && values.Length > 0)
+            {
+                for (var i = 0; i < values.Length; i++)
+                {
+                    if (values[i] is string s && !string.IsNullOrEmpty(s))
+                    {
+                        values[i] = _translationService.Translate(s, TranslationSourceInfo.From(MissingTextSource.Log));
+                    }
+                }
+            }
+
             if (values.Length == 0)
             {
                 _logger.Write(serilogLevel.Value, exception, translatedTemplate);

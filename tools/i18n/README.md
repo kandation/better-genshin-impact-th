@@ -131,6 +131,29 @@ Context for translators and parallel agents:
 6. Add `"th" => "ไทย"` to `CultureInfoNameToKVPConverter.cs` and settings UI list
 7. Test in app: Settings → UI language → Thai; exercise OCR-heavy tasks
 
+### Gemini API translation (bulk)
+
+For large batches, use `translate_gemini.py` with Google Gemini instead of manual agents.
+
+```powershell
+pip install -r tools/i18n/requirements-gemini.txt
+
+# Set key once (do not commit)
+$env:GEMINI_API_KEY = "your_key"
+# or copy tools/i18n/.env.example → tools/i18n/.env
+
+# Translate pending batches (empty values only)
+.\tools\i18n\run-translate-gemini.ps1
+
+# One file, dry run
+python tools/i18n/translate_gemini.py tools/i18n/batches/th/batch-008-th.json --dry-run
+
+# Merge when done
+python tools/i18n/merge_fragments.py --fragments-dir tools/i18n/batches/th/done --drop-empty
+```
+
+Defaults: model `models/gemini-3.6-flash`, 40 keys per API call, rules from `agent_prompt_th.md`.
+
 ---
 
 ## Updating upstream i18n

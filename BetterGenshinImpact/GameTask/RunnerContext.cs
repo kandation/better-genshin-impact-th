@@ -148,7 +148,7 @@ public class RunnerContext : Singleton<RunnerContext>
     public void StopAutoPick(int time = -1)
     {
         AutoPickTriggerStopCount++;
-        Logger.LogInformation("暂停自动拾取拾取:"+AutoPickTriggerStopCount);
+        Logger.LogInformation("暂停自动拾取拾取:{Count}", AutoPickTriggerStopCount);
         ResumeAutoPick(time);
     }
     /// <summary>
@@ -163,7 +163,7 @@ public class RunnerContext : Singleton<RunnerContext>
 
         if (time>0)
         {
-            Logger.LogInformation(time+"秒后恢复自动拾取:"+AutoPickTriggerStopCount);
+            Logger.LogInformation("{Seconds}秒后恢复自动拾取:{Count}", time, AutoPickTriggerStopCount);
         }
        
         if (time <= 0)
@@ -171,7 +171,7 @@ public class RunnerContext : Singleton<RunnerContext>
             if (AutoPickTriggerStopCount>0)
             {
                 AutoPickTriggerStopCount--;
-                Logger.LogInformation("恢复自动拾取:"+AutoPickTriggerStopCount);
+                Logger.LogInformation("恢复自动拾取:{Count}", AutoPickTriggerStopCount);
             }
         }
         else

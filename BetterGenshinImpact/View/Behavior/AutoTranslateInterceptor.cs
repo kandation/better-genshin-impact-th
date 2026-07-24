@@ -347,11 +347,6 @@ namespace BetterGenshinImpact.View.Behavior
                         continue;
                     }
 
-                    if (IsInGridViewRowPresenter(current))
-                    {
-                        continue;
-                    }
-
                     if (IsInComboBoxContext(current))
                     {
                         continue;

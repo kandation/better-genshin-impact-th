@@ -1,0 +1,10 @@
+{
+  "template_cjk_count": 981,
+  "notify_cjk_count": 104,
+  "status_cjk_count": 0,
+  "all_unique_keys": 1081,
+  "already_translated": 1081,
+  "missing": 0,
+  "interpolated_count": 122,
+  "concat_hint_lines": 55
+}

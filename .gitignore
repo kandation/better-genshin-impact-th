@@ -33,6 +33,8 @@ github_actions_cache/
 .idea
 
 __pycache__/
+tools/i18n/.env
+_run/
 
 
 # Trae

@@ -151,18 +151,32 @@ namespace BetterGenshinImpact.ViewModel
                 {
                     UIDispatcherHelper.Invoke(RefreshSettings);
                 }
+                else if (msg.PropertyName == nameof(OtherConfig.UiCultureInfoName))
+                {
+                    UIDispatcherHelper.Invoke(RebuildStatusList);
+                }
             });
+        }
+
+        private void RebuildStatusList()
+        {
+            StatusList.Clear();
+            InitializeStatusList();
         }
 
         private void InitializeStatusList()
         {
             if (Config != null)
             {
-                StatusList.Add(new StatusItem("\uf256 拾取", Config.AutoPickConfig));
-                StatusList.Add(new StatusItem("\uf075 剧情", Config.AutoSkipConfig));
-                StatusList.Add(new StatusItem("\ue5c8 邀约", Config.AutoSkipConfig, "AutoHangoutEventEnabled"));
-                StatusList.Add(new StatusItem("\uf578 钓鱼", Config.AutoFishingConfig));
-                StatusList.Add(new StatusItem("\uf3c5 传送", Config.QuickTeleportConfig));
+                // StatusItem.Name is data-bound; AutoTranslateInterceptor skips bound Text / Name.
+                // Translate here so MaskWindow overlay labels follow UI culture (exact th.json key match).
+                var tr = App.GetService<ITranslationService>();
+                string T(string s) => tr?.Translate(s) ?? s;
+                StatusList.Add(new StatusItem(T("\uf256 拾取"), Config.AutoPickConfig));
+                StatusList.Add(new StatusItem(T("\uf075 剧情"), Config.AutoSkipConfig));
+                StatusList.Add(new StatusItem(T("\ue5c8 邀约"), Config.AutoSkipConfig, "AutoHangoutEventEnabled"));
+                StatusList.Add(new StatusItem(T("\uf578 钓鱼"), Config.AutoFishingConfig));
+                StatusList.Add(new StatusItem(T("\uf3c5 传送"), Config.QuickTeleportConfig));
             }
         }
 
